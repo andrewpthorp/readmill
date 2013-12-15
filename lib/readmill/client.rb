@@ -1,4 +1,6 @@
+require 'readmill/request'
 require 'readmill/configuration'
+require 'readmill/client/books'
 
 module Readmill
 
@@ -30,6 +32,9 @@ module Readmill
     def api_url
       "https://api.readmill.com/v2/"
     end
+
+    include Readmill::Request
+    include Readmill::Client::Books
 
   end
 
