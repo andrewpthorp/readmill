@@ -11,8 +11,8 @@ group :development do
 end
 
 group :test do
-  gem 'rspec', '~> 2.13.0'
-  gem 'webmock', '~> 1.9.0'
+  gem 'rspec'
+  gem 'webmock'
 end
 
 gemspec
