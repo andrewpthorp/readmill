@@ -2,6 +2,7 @@ require 'readmill/request'
 require 'readmill/configuration'
 require 'readmill/client/books'
 require 'readmill/client/readings'
+require 'readmill/client/periods'
 
 module Readmill
 
@@ -37,6 +38,7 @@ module Readmill
     include Readmill::Request
     include Readmill::Client::Books
     include Readmill::Client::Readings
+    include Readmill::Client::Periods
 
   end
 

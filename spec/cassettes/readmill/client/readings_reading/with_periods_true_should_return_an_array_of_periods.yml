@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.readmill.com/v2/readings/443173/periods
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Authorization:
+      - Client READMILL_CLIENT_ID
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 16 Dec 2013 05:45:53 GMT
+      Etag:
+      - '"51dc037277c5844eb1de114db85e1af9"'
+      Server:
+      - nginx/1.0.12
+      Status:
+      - 200 OK
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 30a3086ecf40b0c4490a6876acdf2457
+      X-Runtime:
+      - '0.052037'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '291'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"pagination":{"next":null},"items":[{"period":{"id":833450,"reading":{"id":443173},"user":{"id":45146},"started_at":"2013-12-16T04:12:43Z","duration":1500,"progress":0.368301,"identifier":"0DAEE845-E044-491E-B1BD-08A096CBE6EB-1831-000004C9D8C627EF","locations":{"items":[]}}}],"status":200}'
+    http_version: 
+  recorded_at: Mon, 16 Dec 2013 05:45:53 GMT
+recorded_with: VCR 2.8.0

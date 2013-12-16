@@ -50,6 +50,20 @@ describe Readmill::Client::Readings do
     it 'should return a reading' do
       expect(results).to respond_to(:reading)
     end
+
+    context 'with periods true' do
+      let (:results) { client.reading(443173, periods: true) }
+
+      it 'should request periods for the reading from readmill' do
+        results
+        assert_requested :get, readmill_url('readings/443173/periods')
+      end
+
+      it 'should return an array of periods' do
+        expect(results).to be_a(Array)
+        expect(results.first).to respond_to(:period)
+      end
+    end
   end
 
 end
