@@ -25,7 +25,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Mon, 16 Dec 2013 03:37:29 GMT
+      - Mon, 16 Dec 2013 04:19:51 GMT
       Etag:
       - '"d6b8fcef7531c80136b0539e78042926"'
       Server:
@@ -35,9 +35,9 @@ http_interactions:
       X-Rack-Cache:
       - miss
       X-Request-Id:
-      - 78fe3796424215c04a878304b69a2453
+      - 4c16ab75295336aa6f7c82bf37c26afd
       X-Runtime:
-      - '0.096865'
+      - '0.034174'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Content-Length:
@@ -68,5 +68,5 @@ http_interactions:
         Lessons to Accelerate Your Startup can get your entrepreneurial endeavor headed
         in the right direction.","published_at":"2010-10-19","language":"en","permalink":"do-more-faster-techstars-lessons-to-accelerate-your-startup","permalink_url":"https://readmill.com/books/do-more-faster-techstars-lessons-to-accelerate-your-startup","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Fcovers%252F4c22fed8ffc2f4a651ab3dd994eb452403e12cf4-original.png&width=120","cover_metadata":{"original_width":300,"original_height":452},"assets":{"items":[{"asset":{"vendor":"","uri":"http://www.feedbooks.com/item/217887/do-more-faster-techstars-lessons-to-accelerate-your-startup","acquisition_type":"store"}}]},"readings_count":98,"recommended_readings_count":0,"active_and_finished_readings_count":24,"average_duration":214,"featured":false,"price_segment":null},"status":200}'
     http_version: 
-  recorded_at: Mon, 16 Dec 2013 03:37:28 GMT
+  recorded_at: Mon, 16 Dec 2013 04:19:50 GMT
 recorded_with: VCR 2.8.0
