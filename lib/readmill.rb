@@ -1,5 +1,6 @@
 require 'readmill/client'
 require 'readmill/configuration'
+require 'readmill/error'
 
 module Readmill
 

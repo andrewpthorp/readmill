@@ -1,6 +1,7 @@
 require 'readmill'
 require 'rspec'
 require 'webmock/rspec'
+require 'hashie'
 
 RSpec.configure do |config|
   config.before(:each) do

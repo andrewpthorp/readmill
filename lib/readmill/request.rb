@@ -1,5 +1,6 @@
 require 'multi_json'
 require 'faraday_middleware'
+require 'faraday/response/raise_readmill_error'
 
 module Readmill
 
@@ -44,10 +45,12 @@ module Readmill
       options = { url: api_url, ssl: { verify: false } }
       options.merge!(params: { client_id: client_id }) unless client_id.nil?
 
-      connection = Faraday.new(options) do |builder|
-        builder.use FaradayMiddleware::Mashify
-        builder.use FaradayMiddleware::ParseJson
-        builder.adapter adapter
+      connection = Faraday.new(options) do |conn|
+        conn.response :readmill_errors
+        conn.response :mashify
+        conn.response :json
+
+        conn.adapter  adapter
       end
 
       connection

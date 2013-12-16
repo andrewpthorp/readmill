@@ -13,6 +13,7 @@ end
 group :test do
   gem 'rspec'
   gem 'webmock'
+  gem 'hashie'
 end
 
 gemspec
