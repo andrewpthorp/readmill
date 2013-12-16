@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.readmill.com/v2/users/1/followings
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Authorization:
+      - Client READMILL_CLIENT_ID
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 16 Dec 2013 16:44:11 GMT
+      Etag:
+      - '"c4e40a99ea8585030bff9fc02a650abb"'
+      Server:
+      - nginx/1.0.12
+      Status:
+      - 200 OK
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 08331a72fe860a8aed2225bfe847621e
+      X-Runtime:
+      - '1.130810'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '14486'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"pagination":{"next":"https://api.readmill.com/v2/users/1/followings?offset=0&order=created_at&to=2013-04-19+00%3A07%3A52+UTC&user_id=1"},"items":[{"user":{"id":165364,"username":"samjohnstone","firstname":"Sam","lastname":"Johnstone","fullname":"Sam
+        Johnstone","country":"Canada","city":"Toronto","created_at":"2013-11-02T19:53:48Z","website":"http://www.johnstonepropaganda.com","description":"A
+        designer/illustrator living in Toronto","permalink_url":"https://readmill.com/samjohnstone","books_interesting_count":6,"books_reading_count":2,"books_finished_count":21,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F9ec66f85b6fc217af21fce00fb37930092fa8a5c-original.png&width=50","followers_count":10,"followings_count":29,"reading_time":30825,"recent_reading_time":9094}},{"user":{"id":86845,"username":"josevalim","firstname":"Jos\u00e9","lastname":"Valim","fullname":"Jos\u00e9
+        Valim","country":"Poland","city":"Krak\u00f3w","created_at":"2013-05-23T08:53:27Z","website":"","description":"","permalink_url":"https://readmill.com/josevalim","books_interesting_count":0,"books_reading_count":0,"books_finished_count":1,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252Ffe7027d8091543c3eea1a032ebdfdce3ddde5056-original.png&width=50","followers_count":9,"followings_count":1,"reading_time":5700,"recent_reading_time":0}},{"user":{"id":22812,"username":"deerajks","firstname":null,"lastname":null,"fullname":"deerajks","country":null,"city":null,"created_at":"2012-08-30T16:36:50Z","website":null,"description":null,"permalink_url":"https://readmill.com/deerajks","books_interesting_count":13,"books_reading_count":1,"books_finished_count":0,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":15,"reading_time":0,"recent_reading_time":0}},{"user":{"id":610,"username":"eriklindebratt","firstname":"Erik","lastname":"Lindebratt","fullname":"Erik
+        Lindebratt","country":"","city":"","created_at":"2011-06-27T19:14:28Z","website":"","description":"","permalink_url":"https://readmill.com/eriklindebratt","books_interesting_count":5,"books_reading_count":6,"books_finished_count":10,"books_abandoned_count":4,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F92a79715de772e17cb05e9a4951498872f0b40c4-original.png&width=50","followers_count":29,"followings_count":48,"reading_time":88500,"recent_reading_time":5400}},{"user":{"id":2735,"username":"heiko","firstname":"Heiko","lastname":"Hebig","fullname":"Heiko
+        Hebig","country":"Germany","city":"","created_at":"2011-09-07T14:40:52Z","website":"http://www.hebig.com","description":"heading
+        up r&d at hubert burda media.","permalink_url":"https://readmill.com/heiko","books_interesting_count":0,"books_reading_count":0,"books_finished_count":0,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252Fb4363b3f8c5f19d33d35e1017cae8e75516baca3-original.png&width=50","followers_count":94,"followings_count":28,"reading_time":0,"recent_reading_time":0}},{"user":{"id":5324,"username":"jbenjaminsson","firstname":"Johan","lastname":"Benjaminsson","fullname":"Johan
+        Benjaminsson","country":null,"city":null,"created_at":"2011-10-13T11:21:59Z","website":null,"description":null,"permalink_url":"https://readmill.com/jbenjaminsson","books_interesting_count":2,"books_reading_count":1,"books_finished_count":0,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F6f4b28e588de6b37e5a2a85ed58eb5a2d88a9dd0-original.png&width=50","followers_count":1,"followings_count":2,"reading_time":300,"recent_reading_time":0}},{"user":{"id":29767,"username":"lmsanchez","firstname":"Lisa","lastname":"Sanchez","fullname":"Lisa
+        Sanchez","country":"","city":"Berlin","created_at":"2012-11-13T01:59:57Z","website":"http://lisasanchez.me","description":"Community
+        manager at Readmill. Wondering what you''ve read and loved lately. lisa@readmill.com","permalink_url":"https://readmill.com/lmsanchez","books_interesting_count":37,"books_reading_count":32,"books_finished_count":16,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F6f3369f80337c150f60909833fb35926d1eddcf2-original.png&width=50","followers_count":1659,"followings_count":429,"reading_time":182100,"recent_reading_time":16800}},{"user":{"id":16442,"username":"lamm","firstname":"David","lastname":"Lamm","fullname":"David
+        Lamm","country":"Sweden","city":"","created_at":"2012-06-12T20:46:38Z","website":"http://Meand.se","description":"","permalink_url":"https://readmill.com/lamm","books_interesting_count":2,"books_reading_count":8,"books_finished_count":5,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F68560118f557560044e8aa9ae3e00bf9501aec66-original.png&width=50","followers_count":11,"followings_count":20,"reading_time":561000,"recent_reading_time":600}},{"user":{"id":19204,"username":"NSMutablePerson","firstname":"NSMutablePerson","lastname":null,"fullname":"NSMutablePerson","country":null,"city":null,"created_at":"2012-07-13T13:41:47Z","website":null,"description":"Passionate
+        iOS software developer / designer.\r\n\r\nInterested in software, music, design,
+        and usability.","permalink_url":"https://readmill.com/NSMutablePerson","books_interesting_count":1,"books_reading_count":14,"books_finished_count":0,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F36004bf555f72f2d9b9ad0834186a93299390180-original.png&width=50","followers_count":3,"followings_count":1,"reading_time":9900,"recent_reading_time":0}},{"user":{"id":89336,"username":"novake2","firstname":"Emily","lastname":"Novak","fullname":"Emily
+        Novak","country":null,"city":"Denver","created_at":"2013-05-29T22:58:18Z","website":null,"description":null,"permalink_url":"https://readmill.com/novake2","books_interesting_count":0,"books_reading_count":5,"books_finished_count":3,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F704bba6df6486ab4943103047baa2635a9c5a26d-original.png&width=50","followers_count":4,"followings_count":6,"reading_time":57900,"recent_reading_time":4500}},{"user":{"id":82,"username":"mptre","firstname":"Anton","lastname":"Stringsteen","fullname":"Anton
+        Stringsteen","country":"","city":"","created_at":"2011-02-25T15:25:12Z","website":"http://qvister.se","description":"Webdeveloper,
+        interested in code, webstandards, music, biking (singlespeed/fixie).","permalink_url":"https://readmill.com/mptre","books_interesting_count":15,"books_reading_count":4,"books_finished_count":14,"books_abandoned_count":2,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252Fe92d4e7bac3c15a3f68fa0de84398a90582a111d-original.png&width=50","followers_count":74,"followings_count":67,"reading_time":68100,"recent_reading_time":0}},{"user":{"id":1102,"username":"smgt","firstname":"Simon","lastname":"Gate","fullname":"Simon
+        Gate","country":"Sweden","city":"L\u00e4dja","created_at":"2011-08-12T18:33:01Z","website":"http://smgt.me","description":"Coder,
+        velo enthusiast, tobacco cultivator and book lover. Reading all the classics.","permalink_url":"https://readmill.com/smgt","books_interesting_count":9,"books_reading_count":5,"books_finished_count":19,"books_abandoned_count":3,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252Fe728b3f5a249c23326982bc0362f02318fb05914-original.png&width=50","followers_count":36,"followings_count":29,"reading_time":372300,"recent_reading_time":0}},{"user":{"id":20976,"username":"gustavengstrom","firstname":"Gustav","lastname":"Engstr\u00f6m","fullname":"Gustav
+        Engstr\u00f6m","country":"Sweden","city":"Stockholm","created_at":"2012-08-06T07:24:51Z","website":"","description":"","permalink_url":"https://readmill.com/gustavengstrom","books_interesting_count":6,"books_reading_count":6,"books_finished_count":2,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F953d899d6fc04a6b0a111f614e0c787c6d1a6831-original.png&width=50","followers_count":17,"followings_count":21,"reading_time":84505,"recent_reading_time":0}},{"user":{"id":7082,"username":"therese_sivertsson","firstname":"Therese","lastname":"Sivertsson","fullname":"Therese
+        Sivertsson","country":"","city":"","created_at":"2011-12-02T14:26:19Z","website":"","description":"","permalink_url":"https://readmill.com/therese_sivertsson","books_interesting_count":15,"books_reading_count":1,"books_finished_count":8,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F2fc71321f31536412c1464785c3d4b55eaf18bf3-original.png&width=50","followers_count":33,"followings_count":41,"reading_time":121200,"recent_reading_time":2400}},{"user":{"id":61496,"username":"jeffchan","firstname":"Jeff","lastname":"Chan","fullname":"Jeff
+        Chan","country":"","city":"Boston","created_at":"2013-03-07T18:57:06Z","website":"","description":"MIT
+        student exploring the wonders of technology","permalink_url":"https://readmill.com/jeffchan","books_interesting_count":30,"books_reading_count":6,"books_finished_count":13,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F6b6b65d1801aa5e4d62f416e4621ba54adaa0ad7-original.png&width=50","followers_count":20,"followings_count":27,"reading_time":80100,"recent_reading_time":0}},{"user":{"id":83882,"username":"janja1","firstname":null,"lastname":null,"fullname":"janja1","country":null,"city":null,"created_at":"2013-05-15T10:43:23Z","website":null,"description":null,"permalink_url":"https://readmill.com/janja1","books_interesting_count":0,"books_reading_count":5,"books_finished_count":4,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":1,"reading_time":194361,"recent_reading_time":0}},{"user":{"id":777,"username":"mrgnrdrck","firstname":"Morgan","lastname":"Roderick","fullname":"Morgan
+        Roderick","country":"Germany","city":"Berlin","created_at":"2011-07-12T12:00:08Z","website":"http://roderick.dk","description":"Freelance
+        frontend web developer","permalink_url":"https://readmill.com/mrgnrdrck","books_interesting_count":10,"books_reading_count":11,"books_finished_count":5,"books_abandoned_count":1,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F96b617cef0b3b3a9b200142cd6e967f298721fcc-original.png&width=50","followers_count":23,"followings_count":31,"reading_time":46800,"recent_reading_time":0}},{"user":{"id":909,"username":"aronwoost","firstname":"Aron","lastname":"Woost","fullname":"Aron
+        Woost","country":null,"city":null,"created_at":"2011-07-28T20:06:10Z","website":"http://apdevblog.com/","description":"Interactive
+        Media Developer (AS, JS, iOS). I do freelance jobs and work on @nimbi and
+        @flashfilter","permalink_url":"https://readmill.com/aronwoost","books_interesting_count":0,"books_reading_count":2,"books_finished_count":0,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F5830e7b611e7b90a8de9e13aad9a66bd7b277f8e-original.png&width=50","followers_count":18,"followings_count":13,"reading_time":0,"recent_reading_time":0}},{"user":{"id":65887,"username":"soolmaz9","firstname":"Soolmaz","lastname":"Shahrivar","fullname":"Soolmaz
+        Shahrivar","country":null,"city":null,"created_at":"2013-03-20T22:24:06Z","website":null,"description":null,"permalink_url":"https://readmill.com/soolmaz9","books_interesting_count":0,"books_reading_count":1,"books_finished_count":0,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F5f09a8dd6049b58117dc9407150e370cda8dd773-original.png&width=50","followers_count":1,"followings_count":1,"reading_time":0,"recent_reading_time":0}},{"user":{"id":64524,"username":"josefink","firstname":"Josefin","lastname":"Karlsson","fullname":"Josefin
+        Karlsson","country":null,"city":null,"created_at":"2013-03-16T13:44:39Z","website":null,"description":null,"permalink_url":"https://readmill.com/josefink","books_interesting_count":1,"books_reading_count":1,"books_finished_count":0,"books_abandoned_count":0,"avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F7723d40c4ead22c2a61130cdce80040cef0f7eff-original.png&width=50","followers_count":4,"followings_count":5,"reading_time":286500,"recent_reading_time":900}}],"status":200}'
+    http_version: 
+  recorded_at: Mon, 16 Dec 2013 16:44:11 GMT
+recorded_with: VCR 2.8.0
