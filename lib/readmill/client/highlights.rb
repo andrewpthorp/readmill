@@ -40,7 +40,11 @@ module Readmill
       #
       # Returns a Hashie::Mash.
       def highlight(id, opts={})
-        get("highlights/#{id}", opts)
+        if opts.delete(:comments)
+          get("highlights/#{id}/comments", opts).items
+        else
+          get("highlights/#{id}", opts)
+        end
       end
 
     end

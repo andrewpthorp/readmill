@@ -50,6 +50,20 @@ describe Readmill::Client::Highlights do
     it 'should return a highlight' do
       expect(results).to respond_to(:highlight)
     end
+
+    context 'with comments true' do
+      let (:results) { client.highlight(829035, comments: true) }
+
+      it 'should return comments for the highlight from readmill' do
+        results
+        assert_requested :get, readmill_url('highlights/829035/comments')
+      end
+
+      it 'should return an array of comments' do
+        expect(results).to be_a(Array)
+        expect(results.first).to respond_to(:comment)
+      end
+    end
   end
 
 end

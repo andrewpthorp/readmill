@@ -1,6 +1,7 @@
 require 'readmill/request'
 require 'readmill/configuration'
 require 'readmill/client/books'
+require 'readmill/client/comments'
 require 'readmill/client/highlights'
 require 'readmill/client/locations'
 require 'readmill/client/periods'
@@ -39,6 +40,7 @@ module Readmill
 
     include Readmill::Request
     include Readmill::Client::Books
+    include Readmill::Client::Comments
     include Readmill::Client::Highlights
     include Readmill::Client::Locations
     include Readmill::Client::Periods
