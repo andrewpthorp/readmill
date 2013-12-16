@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.readmill.com/v2/readings/439319/highlights
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Authorization:
+      - Client READMILL_CLIENT_ID
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 16 Dec 2013 06:18:47 GMT
+      Etag:
+      - '"761a8a5e1668aae462d39a75562821fa"'
+      Server:
+      - nginx/1.0.12
+      Status:
+      - 200 OK
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 5a925498ee2e8ed86c0fcfb2a96ac146
+      X-Runtime:
+      - '0.202942'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '2477'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"pagination":{"next":null},"items":[{"highlight":{"id":827438,"position":0.973732,"content":"He
+        always fell asleep as easily as some great lazing cat, he only had to close
+        his eyes and moments later he\u2019d be gone, while my own mind kept on whirring
+        round with scattered thoughts and images.","highlighted_at":"2013-12-16T06:17:21Z","permalink":"orbgva","permalink_url":"https://readmill.com/keels223/reads/the-winter-sea/highlights/orbgva","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.9737325,"mid":"He
+        always fell asleep as easily as some great lazing cat, he only had to close
+        his eyes and moments later he\u2019d be gone, while my own mind kept on whirring
+        round with scattered thoughts and images.","post":" I felt his breathing slow
+        aga","rmsdk":{"start":"text/part46.xhtml#point(/1/4/2/3/67/1:47)","end":"text/part46.xhtml#point(/1/4/2/3/67/1:245)"},"pre":"I
+        could hear it in his voice. "},"comments_count":0,"likes_count":0,"reading":{"id":439319}}},{"highlight":{"id":826994,"position":0.729259,"content":"\u2018Hope,\u2019
+        he told her, \u2018rarely enters into it. \u2019Tis action moves the world.","highlighted_at":"2013-12-16T04:21:17Z","permalink":"kxelzg","permalink_url":"https://readmill.com/keels223/reads/the-winter-sea/highlights/kxelzg","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.7292588,"mid":"\u2018Hope,\u2019
+        he told her, \u2018rarely enters into it. \u2019Tis action moves the world.","post":"
+        If ye mind nothing else I\u2019ve ","rmsdk":{"start":"text/part35.xhtml#point(/1/4/2/3/75/1:0)","end":"text/part35.xhtml#point(/1/4/2/3/75/1:81)"},"pre":"afore
+        too long.\u2019 \u2018I hope so.\u2019 "},"comments_count":0,"likes_count":0,"reading":{"id":439319}}}],"status":200}'
+    http_version: 
+  recorded_at: Mon, 16 Dec 2013 06:18:47 GMT
+recorded_with: VCR 2.8.0

@@ -1,0 +1,191 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.readmill.com/v2/users/35202/highlights
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Authorization:
+      - Client READMILL_CLIENT_ID
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 16 Dec 2013 06:18:48 GMT
+      Etag:
+      - '"16de7375a217e06c3285a7a13ad2e23e"'
+      Server:
+      - nginx/1.0.12
+      Status:
+      - 200 OK
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 950a8ffce01ecdfde8b4a90948c868f0
+      X-Runtime:
+      - '0.351753'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '24081'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"pagination":{"next":"https://api.readmill.com/v2/users/35202/highlights?offset=0&order=highlighted_at&to=2013-06-25+05%3A21%3A21+UTC&user_id=35202"},"items":[{"highlight":{"id":827438,"position":0.973732,"content":"He
+        always fell asleep as easily as some great lazing cat, he only had to close
+        his eyes and moments later he\u2019d be gone, while my own mind kept on whirring
+        round with scattered thoughts and images.","highlighted_at":"2013-12-16T06:17:21Z","permalink":"orbgva","permalink_url":"https://readmill.com/keels223/reads/the-winter-sea/highlights/orbgva","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.9737325,"mid":"He
+        always fell asleep as easily as some great lazing cat, he only had to close
+        his eyes and moments later he\u2019d be gone, while my own mind kept on whirring
+        round with scattered thoughts and images.","post":" I felt his breathing slow
+        aga","rmsdk":{"start":"text/part46.xhtml#point(/1/4/2/3/67/1:47)","end":"text/part46.xhtml#point(/1/4/2/3/67/1:245)"},"pre":"I
+        could hear it in his voice. "},"comments_count":0,"likes_count":0,"reading":{"id":439319}}},{"highlight":{"id":826994,"position":0.729259,"content":"\u2018Hope,\u2019
+        he told her, \u2018rarely enters into it. \u2019Tis action moves the world.","highlighted_at":"2013-12-16T04:21:17Z","permalink":"kxelzg","permalink_url":"https://readmill.com/keels223/reads/the-winter-sea/highlights/kxelzg","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.7292588,"mid":"\u2018Hope,\u2019
+        he told her, \u2018rarely enters into it. \u2019Tis action moves the world.","post":"
+        If ye mind nothing else I\u2019ve ","rmsdk":{"start":"text/part35.xhtml#point(/1/4/2/3/75/1:0)","end":"text/part35.xhtml#point(/1/4/2/3/75/1:81)"},"pre":"afore
+        too long.\u2019 \u2018I hope so.\u2019 "},"comments_count":0,"likes_count":0,"reading":{"id":439319}}},{"highlight":{"id":802305,"position":0.0838301,"content":"The
+        true fruit of this century has little interest in coming to living-terms with
+        innovations; it just greedily grabs them all as they come along.","highlighted_at":"2013-12-11T07:17:47Z","permalink":"hal86g","permalink_url":"https://readmill.com/keels223/reads/the-midwich-cuckoos/highlights/hal86g","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.08383008,"mid":"The
+        true fruit of this century has little interest in coming to living-terms with
+        innovations; it just greedily grabs them all as they come along.","post":"
+        Only when it encounters somet","rmsdk":{"start":"The_Midwich_Cuckoos_split_006.html#point(/1/4/2/38/3:48)","end":"The_Midwich_Cuckoos_split_006.html#point(/1/4/2/38/3:194)"},"pre":"the
+        existence of the problem. "},"comments_count":0,"likes_count":0,"reading":{"id":426803}}},{"highlight":{"id":802304,"position":0.0823715,"content":"We
+        don\u2019t seem to be good at integrating novelties with our social lives,
+        do we? The world of the etiquette book fell to pieces at the end of the last
+        century, and there has been no code of manners to tell us how to deal with
+        anything invented since. Not even rules for an individualist to break, which
+        is itself another blow at freedom. Rather a pity, don\u2019t you think?","highlighted_at":"2013-12-11T07:17:21Z","permalink":"vn93hq","permalink_url":"https://readmill.com/keels223/reads/the-midwich-cuckoos/highlights/vn93hq","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.08237148,"mid":"We
+        don\u2019t seem to be good at integrating novelties with our social lives,
+        do we? The world of the etiquette book fell to pieces at the end of the last
+        century, and there has been no code of manners to tell us how to deal with
+        anything invented since. Not even rules for an individualist to break, which
+        is itself another blow at freedom. Rather a pity, don\u2019t you think?","post":"\u2019
+        \u2018Er, yes,\u2019 said Alan. \u2018I \u2013 er","rmsdk":{"start":"The_Midwich_Cuckoos_split_006.html#point(/1/4/2/34/1:3)","end":"The_Midwich_Cuckoos_split_006.html#point(/1/4/2/34/1:375)"},"pre":"tell
+        us. We shall never know. \u2018"},"comments_count":0,"likes_count":0,"reading":{"id":426803}}},{"highlight":{"id":689919,"position":0.0246339,"content":"Once
+        that occurred, MTV became The Singularity, the last media force that represented
+        an encompassing view of pop culture.","highlighted_at":"2013-11-13T04:55:39Z","permalink":"osrlzw","permalink_url":"https://readmill.com/keels223/reads/i-want-my-mtv/highlights/osrlzw","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.02463386,"mid":"Once
+        that occurred, MTV became The Singularity, the last media force that represented
+        an encompassing view of pop culture.","post":" HISTORY HAS NOT RECORDED THE","rmsdk":{"start":"OEBPS/mark_9781101526415_oeb_itr_r1.xhtml#point(/1/4/41/3:200)","end":"OEBPS/mark_9781101526415_oeb_itr_r1.xhtml#point(/1/4/42:0)"},"pre":"
+        then built its brand around. "},"comments_count":0,"likes_count":0,"reading":{"id":353007}}},{"highlight":{"id":689915,"position":0.0226485,"content":"MTV
+        pissed off baby boomers, in part because it signified a transition from an
+        era when the biggest rock stars were bands that transformed public consciousness,
+        to one where technology filled that role.","highlighted_at":"2013-11-13T04:54:23Z","permalink":"pkjzjg","permalink_url":"https://readmill.com/keels223/reads/i-want-my-mtv/highlights/pkjzjg","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.02264848,"mid":"MTV
+        pissed off baby boomers, in part because it signified a transition from an
+        era when the biggest rock stars were bands that transformed public consciousness,
+        to one where technology filled that role.","post":" Today, that transformation
+        is","rmsdk":{"start":"OEBPS/mark_9781101526415_oeb_itr_r1.xhtml#point(/1/4/33/1:38)","end":"OEBPS/mark_9781101526415_oeb_itr_r1.xhtml#point(/1/4/33/1:240)"},"pre":"it
+        accomplished nothing else, "},"comments_count":0,"likes_count":0,"reading":{"id":353007}}},{"highlight":{"id":689913,"position":0.0201818,"content":"1992
+        marks the end of MTV\u2019s Golden Era","highlighted_at":"2013-11-13T04:52:22Z","permalink":"34onqa","permalink_url":"https://readmill.com/keels223/reads/i-want-my-mtv/highlights/34onqa","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.02018182,"mid":"1992
+        marks the end of MTV\u2019s Golden Era","post":", which was brought to a close","rmsdk":{"start":"OEBPS/mark_9781101526415_oeb_itr_r1.xhtml#point(/1/4/26/1:12)","end":"OEBPS/mark_9781101526415_oeb_itr_r1.xhtml#point(/1/4/26/1:52)"},"pre":"new,
+        young blood. But for us, "},"comments_count":0,"likes_count":0,"reading":{"id":353007}}},{"highlight":{"id":689912,"position":0.0197634,"content":"As
+        the subject of an oral history, MTV is uniquely compelling; the network identity
+        morphs but never peters out. There\u2019s no dreary third act where the star
+        gets old, Learns an Important Lesson, and ceases being relevant. Like Charlie
+        Brown or Beavis and Butt-head, the passing of time does not age MTV. It is
+        perpetually fourteen years old, about to start high school, excited, but not
+        too smart. With vampiric persistence, the network perpetually finds new, young
+        blood.","highlighted_at":"2013-11-13T04:52:04Z","permalink":"-2bpug","permalink_url":"https://readmill.com/keels223/reads/i-want-my-mtv/highlights/-2bpug","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.01976339,"mid":"As
+        the subject of an oral history, MTV is uniquely compelling; the network identity
+        morphs but never peters out. There\u2019s no dreary third act where the star
+        gets old, Learns an Important Lesson, and ceases being relevant. Like Charlie
+        Brown or Beavis and Butt-head, the passing of time does not age MTV. It is
+        perpetually fourteen years old, about to start high school, excited, but not
+        too smart. With vampiric persistence, the network perpetually finds new, young
+        blood.","post":" But for us, 1992 marks the en","rmsdk":{"start":"OEBPS/mark_9781101526415_oeb_itr_r1.xhtml#point(/1/4/24/1:0)","end":"OEBPS/mark_9781101526415_oeb_itr_r1.xhtml#point(/1/4/25:0)"},"pre":"\u201cA
+        Whopping, Steaming Turd.\u201d) "},"comments_count":0,"likes_count":0,"reading":{"id":353007}}},{"highlight":{"id":650414,"position":0.276296,"content":"His
+        whole personality was like an elaborate joke that he never stopped telling.","highlighted_at":"2013-10-21T22:09:00Z","permalink":"tsafna","permalink_url":"https://readmill.com/keels223/reads/sample-the-magicians/highlights/tsafna","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.276296,"mid":"His
+        whole personality was like an elaborate joke that he never stopped telling.","post":"
+        It took Quentin a while to fi","rmsdk":{"start":"OEBPS/gros_9781101082287_oeb_c08_r1.xhtml#point(/1/4/12/1:207)","end":"OEBPS/gros_9781101082287_oeb_c08_r1.xhtml#point(/1/4/12/1:286)"},"pre":"
+        too narrow in the shoulders. "},"comments_count":0,"likes_count":0,"reading":{"id":323386}}},{"highlight":{"id":646159,"position":0.11913,"content":"Meaning\u2014is
+        that what magic was?\u2014was everywhere here.","highlighted_at":"2013-10-19T22:25:19Z","permalink":"uuav1w","permalink_url":"https://readmill.com/keels223/reads/sample-the-magicians/highlights/uuav1w","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.1191297,"mid":"Meaning\u2014is
+        that what magic was?\u2014was everywhere here.","post":" The place was crawling
+        with i","rmsdk":{"start":"OEBPS/gros_9781101082287_oeb_c03_r1.xhtml#point(/1/4/106/1:725)","end":"OEBPS/gros_9781101082287_oeb_c03_r1.xhtml#point(/1/4/106/1:781)"},"pre":"s
+        was different. It mattered. "},"comments_count":0,"likes_count":0,"reading":{"id":323386}}},{"highlight":{"id":638352,"position":0.632044,"content":"Because
+        sometimes, you need to help the heroes along.","highlighted_at":"2013-10-16T03:11:19Z","permalink":"8ppxgg","permalink_url":"https://readmill.com/keels223/reads/steelheart/highlights/8ppxgg","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.6320438,"mid":"Because
+        sometimes, you need to help the heroes along.","post":" I stood up. Somehow
+        I knew, i","rmsdk":{"start":"OEBPS/Sand_9780449818398_epub_c25_r1.htm#point(/1/4/128/1:182)","end":"OEBPS/Sand_9780449818398_epub_c25_r1.htm#point(/1/4/128/1:235)"},"pre":"
+        chance, to stop the murders. "},"comments_count":0,"likes_count":0,"reading":{"id":319779}}},{"highlight":{"id":532004,"position":0.43267,"content":"Doom
+        Bar","highlighted_at":"2013-07-31T04:55:23Z","permalink":"gvafwq","permalink_url":"https://readmill.com/keels223/reads/the-cuckoos-calling/highlights/gvafwq","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.43266963958740234,"mid":"Doom
+        Bar","post":" and read his paper.Bristow wa","pre":" the water, ordered a
+        pint of "},"comments_count":0,"likes_count":0,"reading":{"id":242346}}},{"highlight":{"id":497904,"position":0.665903,"content":"there
+        is nothing more morbid than being unhappy while the sun shines down on you.","highlighted_at":"2013-07-03T04:04:22Z","permalink":"lf3bsa","permalink_url":"https://readmill.com/keels223/reads/the-perfume-collector/highlights/lf3bsa","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.6659030318260193,"mid":"there
+        is nothing more morbid than being unhappy while the sun shines down on you.","post":"\u2019
+        She opened her handbag and t","pre":"nted out. \u2018Also,\u2019 she added,
+        \u2018"},"comments_count":0,"likes_count":0,"reading":{"id":229897}}},{"highlight":{"id":497903,"position":0.665452,"content":"Because
+        all this sunshine is uncivilized, Fran\u00e7ois. Great conversations cannot
+        be had by a poolside. I long for the roll of thunder, the darkening sky, the
+        sudden eruption of a cold refreshing shower!","highlighted_at":"2013-07-03T04:03:51Z","permalink":"95u9mq","permalink_url":"https://readmill.com/keels223/reads/the-perfume-collector/highlights/95u9mq","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.66545170545578,"mid":"Because
+        all this sunshine is uncivilized, Fran\u00e7ois. Great conversations cannot
+        be had by a poolside. I long for the roll of thunder, the darkening sky, the
+        sudden eruption of a cold refreshing shower!","post":"\u2019 She sighed again.
+        \u2018You have ","pre":"y you want it to rain. Why?\u2019 \u2018"},"comments_count":0,"likes_count":0,"reading":{"id":229897}}},{"highlight":{"id":494431,"position":0.199305,"content":"People
+        take for granted what is in fact an art. To live well, to live comfortably
+        by one\u2019s own standards takes a certain maturity of spirit, exceptional
+        character, truly refined taste, and\u2014\u2019","highlighted_at":"2013-06-30T03:00:18Z","permalink":"jupvcw","permalink_url":"https://readmill.com/keels223/reads/the-perfume-collector/highlights/jupvcw","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.19930480420589447,"mid":"People
+        take for granted what is in fact an art. To live well, to live comfortably
+        by one\u2019s own standards takes a certain maturity of spirit, exceptional
+        character, truly refined taste, and\u2014\u2019","post":" \u2018And money.\u2019
+        She tore off ano","pre":" me?\u2019 \u2018No, I\u2019m quite serious. "},"comments_count":0,"likes_count":0,"reading":{"id":229897}}},{"highlight":{"id":493759,"position":0.904657,"content":"Nothing\u2019s
+        ever the same,\u2019 she said. \u2018Be it a second later or a hundred years.
+        It\u2019s always churning and roiling. And people change as much as oceans.\u2019","highlighted_at":"2013-06-29T05:32:59Z","permalink":"4bquaq","permalink_url":"https://readmill.com/keels223/reads/the-ocean-at-the-end-of-the-lane/highlights/4bquaq","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.9046570062637329,"mid":"Nothing\u2019s
+        ever the same,\u2019 she said. \u2018Be it a second later or a hundred years.
+        It\u2019s always churning and roiling. And people change as much as oceans.\u2019","post":"
+        Ginnie clambered out of the w","pre":"niest thing in the universe. \u2018"},"comments_count":0,"likes_count":0,"reading":{"id":226088}}},{"highlight":{"id":490149,"position":0.656153,"content":"Children,
+        as I have said, use back ways and hidden tracks, while adults take roads and
+        official paths.","highlighted_at":"2013-06-26T04:10:16Z","permalink":"eumu_q","permalink_url":"https://readmill.com/keels223/reads/the-ocean-at-the-end-of-the-lane/highlights/eumu_q","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.6561525464057922,"mid":"Children,
+        as I have said, use back ways and hidden tracks, while adults take roads and
+        official paths.","post":" We went off the road, took a ","pre":"shadows dissolved
+        in vinegar. "},"comments_count":0,"likes_count":0,"reading":{"id":226088}}},{"highlight":{"id":490121,"position":0.557014,"content":"For
+        dessert, we had the pie, stuffed with apples and with swollen raisins and
+        crushed nuts, all topped with a thick yellow custard, creamier and richer
+        than anything I had ever tasted at school or at home.","highlighted_at":"2013-06-26T03:31:46Z","permalink":"4ijt8w","permalink_url":"https://readmill.com/keels223/reads/the-ocean-at-the-end-of-the-lane/highlights/4ijt8w","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.5570139288902283,"mid":"For
+        dessert, we had the pie, stuffed with apples and with swollen raisins and
+        crushed nuts, all topped with a thick yellow custard, creamier and richer
+        than anything I had ever tasted at school or at home.","post":" The kitten
+        slept on a cushion","pre":"or the rest of my childhood). "},"comments_count":0,"likes_count":0,"reading":{"id":226088}}},{"highlight":{"id":489216,"position":0.383824,"content":"I
+        went away in my head, into a book. That was where I went whenever real life
+        was too hard or too inflexible","highlighted_at":"2013-06-25T05:25:56Z","permalink":"wljdtw","permalink_url":"https://readmill.com/keels223/reads/the-ocean-at-the-end-of-the-lane/highlights/wljdtw","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.3838241696357727,"mid":"I
+        went away in my head, into a book. That was where I went whenever real life
+        was too hard or too inflexible","post":". I pulled down a handful of m","pre":"d,
+        and now my chest hurt too. "},"comments_count":0,"likes_count":0,"reading":{"id":226088}}},{"highlight":{"id":489209,"position":0.372333,"content":"the
+        paths, to creep beneath rhododendrons, to find the spaces between fences.","highlighted_at":"2013-06-25T05:21:29Z","permalink":"bo86zw","permalink_url":"https://readmill.com/keels223/reads/the-ocean-at-the-end-of-the-lane/highlights/bo86zw","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.3723325729370117,"mid":"the
+        paths, to creep beneath rhododendrons, to find the spaces between fences.","post":"
+        I was a child, and I knew a d","pre":" occurs to adults to step off "},"comments_count":0,"likes_count":0,"reading":{"id":226088}}}],"status":200}'
+    http_version: 
+  recorded_at: Mon, 16 Dec 2013 06:18:48 GMT
+recorded_with: VCR 2.8.0

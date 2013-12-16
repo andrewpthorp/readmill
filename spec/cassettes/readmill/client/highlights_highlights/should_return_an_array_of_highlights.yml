@@ -1,0 +1,182 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.readmill.com/v2/highlights
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Authorization:
+      - Client READMILL_CLIENT_ID
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 16 Dec 2013 06:18:46 GMT
+      Etag:
+      - '"0f16d46bb9a36427ff9366b60a9a7b97"'
+      Server:
+      - nginx/1.0.12
+      Status:
+      - 200 OK
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 236680e4e207c9a6963ef600b6a8a7bb
+      X-Runtime:
+      - '0.548315'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '24543'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"pagination":{"next":"https://api.readmill.com/v2/highlights?offset=0&order=highlighted_at&to=2013-12-16+05%3A59%3A00+UTC"},"items":[{"highlight":{"id":827443,"position":0.0967196,"content":"\u0438\u0433\u0440\u0438\u0432\u043e\u0441\u0442\u044c
+        \u0438 \u043b\u0435\u0433\u043a\u043e\u043c\u044b\u0441\u043b\u0435\u043d\u043d\u043e\u0435
+        \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435 \u043a \u0436\u0438\u0437\u043d\u0438
+        \u0438 \u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c","highlighted_at":"2013-12-16T06:18:43Z","permalink":"gwfnog","permalink_url":"https://readmill.com/koertee1/reads/novaia-zhzhizn-biez-trusov/highlights/gwfnog","user":{"id":209589,"username":"koertee1","firstname":null,"fullname":"koertee1","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/koertee1"},"locators":{"position":0.09671962,"mid":"\u0438\u0433\u0440\u0438\u0432\u043e\u0441\u0442\u044c
+        \u0438 \u043b\u0435\u0433\u043a\u043e\u043c\u044b\u0441\u043b\u0435\u043d\u043d\u043e\u0435
+        \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435 \u043a \u0436\u0438\u0437\u043d\u0438
+        \u0438 \u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c","post":" \u0434\u0430\u044e\u0442
+        \u043c\u0443\u0436\u0447\u0438\u043d\u0435 \u043f\u0440\u0430\u0432\u043e
+        \u043d\u0430 \u043f\u043e\u0434\u043e\u0431\u043d\u044b","rmsdk":{"start":"OPS/ch1-4.xhtml#point(/1/4/2/13/60/1:13)","end":"OPS/ch1-4.xhtml#point(/1/4/2/13/60/1:116)"},"pre":"\u0438
+        \u043f\u043e\u0434\u043a\u0430\u0431\u043b\u0443\u0447\u043d\u0438\u043a\u043e\u0432
+        \u043f\u0438\u043d\u043a\u0430! \u0422\u043e\u043b\u044c\u043a\u043e "},"comments_count":0,"likes_count":0,"reading":{"id":441899}}},{"highlight":{"id":827442,"position":0.0967662,"content":"\u043a
+        \u0436\u0438\u0437\u043d\u0438 \u0438 \u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c","highlighted_at":"2013-12-16T06:18:37Z","permalink":"uq877q","permalink_url":"https://readmill.com/koertee1/reads/novaia-zhzhizn-biez-trusov/highlights/uq877q","user":{"id":209589,"username":"koertee1","firstname":null,"fullname":"koertee1","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/koertee1"},"locators":{"position":0.09676616,"mid":"\u043a
+        \u0436\u0438\u0437\u043d\u0438 \u0438 \u0436\u0435\u043d\u0449\u0438\u043d\u0430\u043c","post":"
+        \u0434\u0430\u044e\u0442 \u043c\u0443\u0436\u0447\u0438\u043d\u0435 \u043f\u0440\u0430\u0432\u043e
+        \u043d\u0430 \u043f\u043e\u0434\u043e\u0431\u043d\u044b","rmsdk":{"start":"OPS/ch1-4.xhtml#point(/1/4/2/13/60/1:83)","end":"OPS/ch1-4.xhtml#point(/1/4/2/13/60/1:116)"},"pre":"\u0442\u044c
+        \u0438 \u043b\u0435\u0433\u043a\u043e\u043c\u044b\u0441\u043b\u0435\u043d\u043d\u043e\u0435
+        \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435 "},"comments_count":0,"likes_count":0,"reading":{"id":441899}}},{"highlight":{"id":827438,"position":0.973732,"content":"He
+        always fell asleep as easily as some great lazing cat, he only had to close
+        his eyes and moments later he\u2019d be gone, while my own mind kept on whirring
+        round with scattered thoughts and images.","highlighted_at":"2013-12-16T06:17:21Z","permalink":"orbgva","permalink_url":"https://readmill.com/keels223/reads/the-winter-sea/highlights/orbgva","user":{"id":35202,"username":"keels223","firstname":"Keely","fullname":"Keely
+        Galgano","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":6,"permalink_url":"https://readmill.com/keels223"},"locators":{"position":0.9737325,"mid":"He
+        always fell asleep as easily as some great lazing cat, he only had to close
+        his eyes and moments later he\u2019d be gone, while my own mind kept on whirring
+        round with scattered thoughts and images.","post":" I felt his breathing slow
+        aga","rmsdk":{"start":"text/part46.xhtml#point(/1/4/2/3/67/1:47)","end":"text/part46.xhtml#point(/1/4/2/3/67/1:245)"},"pre":"I
+        could hear it in his voice. "},"comments_count":0,"likes_count":0,"reading":{"id":439319}}},{"highlight":{"id":827437,"position":0.58398,"content":"that
+        the remaining cold pork bones and mustard in William''s plate might but divide
+        her feelings with the broken egg-shells in Mr. Crawford''s.","highlighted_at":"2013-12-16T06:15:01Z","permalink":"lo0ivw","permalink_url":"https://readmill.com/whovian7/reads/mansfield-park/highlights/lo0ivw","user":{"id":152726,"username":"whovian7","firstname":null,"fullname":"whovian7","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/whovian7"},"locators":{"position":0.5839799,"mid":"that
+        the remaining cold pork bones and mustard in William''s plate might but divide
+        her feelings with the broken egg-shells in Mr. Crawford''s.","post":" She
+        sat and cried con amore a","rmsdk":{"start":"OPS/main28.xml#point(/1/4/2/2/6/4/1:304)","end":"OPS/main28.xml#point(/1/4/2/2/6/4/1:445)"},"pre":"se
+        her tender enthusiasm, and "},"comments_count":0,"likes_count":0,"reading":{"id":430600}}},{"highlight":{"id":827436,"position":0.214665,"content":"It
+        is of course equally correct to write the above as two sentences each, replacing
+        the semicolons by periods.","highlighted_at":"2013-12-16T06:14:36Z","permalink":"yn38qa","permalink_url":"https://readmill.com/iammai/reads/the-elements-of-style/highlights/yn38qa","user":{"id":210723,"username":"iammai","firstname":"Mai","fullname":"Mai
+        D.","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F63c360ff4adb04a5b9b7e615a467a1741cab0b92-original.png&width=50","followers_count":0,"followings_count":4,"permalink_url":"https://readmill.com/iammai"},"locators":{"position":0.2146651,"mid":"It
+        is of course equally correct to write the above as two sentences each, replacing
+        the semicolons by periods.","post":" Stevenson''s romances are ent","rmsdk":{"start":"OPS/main5.xml#point(/1/4/2/2/4/6/1:0)","end":"OPS/main5.xml#point(/1/4/2/2/4/7:0)"},"pre":"nnot
+        reach town before dark. "},"comments_count":0,"likes_count":0,"reading":{"id":443411}}},{"highlight":{"id":827435,"position":0.0890895,"content":"Don\u2019t
+        let a job title define you. Do what makes sense, not what process dictates.","highlighted_at":"2013-12-16T06:13:30Z","permalink":"mr1nqw","permalink_url":"https://readmill.com/a_shipley22/reads/the-user-experience-team-of-one/highlights/mr1nqw","user":{"id":208509,"username":"a_shipley22","firstname":"Abriel","fullname":"Abriel
+        Shipley","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/a_shipley22"},"locators":{"position":0.08908954,"mid":"Don\u2019t
+        let a job title define you. Do what makes sense, not what process dictates.","post":"
+        And most of all, never stop p","rmsdk":{"start":"OEBPS/html/pref03.html#point(/1/4/18/1:345)","end":"OEBPS/html/pref03.html#point(/1/4/18/1:428)"},"pre":"of
+        seemingly unrelated ideas. "},"comments_count":1,"likes_count":0,"reading":{"id":434744}}},{"highlight":{"id":827434,"position":0.220045,"content":"If
+        a conjunction is inserted, the proper mark is a comma","highlighted_at":"2013-12-16T06:12:54Z","permalink":"umaflg","permalink_url":"https://readmill.com/iammai/reads/the-elements-of-style/highlights/umaflg","user":{"id":210723,"username":"iammai","firstname":"Mai","fullname":"Mai
+        D.","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F63c360ff4adb04a5b9b7e615a467a1741cab0b92-original.png&width=50","followers_count":0,"followings_count":4,"permalink_url":"https://readmill.com/iammai"},"locators":{"position":0.220045,"mid":"If
+        a conjunction is inserted, the proper mark is a comma","post":" (Rule 4).
+        Stevenson''s romanc","rmsdk":{"start":"OPS/main5.xml#point(/1/4/2/2/4/10/1:0)","end":"OPS/main5.xml#point(/1/4/2/2/4/10/1:56)"},"pre":"nnot
+        reach town before dark. "},"comments_count":0,"likes_count":0,"reading":{"id":443411}}},{"highlight":{"id":827432,"position":0.208073,"content":"If
+        two or more clauses, grammatically complete and not joined by a conjunction,
+        are to form a single compound sentence, the proper mark of punctuation is
+        a semicolon.","highlighted_at":"2013-12-16T06:12:21Z","permalink":"z84-hg","permalink_url":"https://readmill.com/iammai/reads/the-elements-of-style/highlights/z84-hg","user":{"id":210723,"username":"iammai","firstname":"Mai","fullname":"Mai
+        D.","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F63c360ff4adb04a5b9b7e615a467a1741cab0b92-original.png&width=50","followers_count":0,"followings_count":4,"permalink_url":"https://readmill.com/iammai"},"locators":{"position":0.2080731,"mid":"If
+        two or more clauses, grammatically complete and not joined by a conjunction,
+        are to form a single compound sentence, the proper mark of punctuation is
+        a semicolon.","post":" Stevenson''s romances are ent","rmsdk":{"start":"OPS/main5.xml#point(/1/4/2/2/4/1:1)","end":"OPS/main5.xml#point(/1/4/2/2/4/2/1:166)"},"pre":"ependent
+        clauses by a comma. "},"comments_count":0,"likes_count":0,"reading":{"id":443411}}},{"highlight":{"id":827430,"position":0.141794,"content":"\u201cwhen
+        the point of contact between the product and the people becomes a point of
+        friction, then the [designer] has failed. On the other hand, if people are
+        made safer, more comfortable, more eager to purchase, more efficient\u2014or
+        just plain happier\u2014by contact with the product, then the designer has
+        succeeded.\u201d","highlighted_at":"2013-12-16T06:11:39Z","permalink":"lhugka","permalink_url":"https://readmill.com/a_shipley22/reads/the-user-experience-team-of-one/highlights/lhugka","user":{"id":208509,"username":"a_shipley22","firstname":"Abriel","fullname":"Abriel
+        Shipley","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/a_shipley22"},"locators":{"position":0.1417938,"mid":"\u201cwhen
+        the point of contact between the product and the people becomes a point of
+        friction, then the [designer] has failed. On the other hand, if people are
+        made safer, more comfortable, more eager to purchase, more efficient\u2014or
+        just plain happier\u2014by contact with the product, then the designer has
+        succeeded.\u201d","post":" FIGURE 1.7Dreyfuss created J","rmsdk":{"start":"OEBPS/html/ch01.html#point(/1/4/82/8:24)","end":"OEBPS/html/ch01.html#point(/1/4/82/8:341)"},"pre":"People,
+        Henry Dreyfuss writes "},"comments_count":1,"likes_count":0,"reading":{"id":434744}}},{"highlight":{"id":827429,"position":0.577542,"content":"\"I
+        am worn out with civility,\"","highlighted_at":"2013-12-16T06:09:42Z","permalink":"f5kc8q","permalink_url":"https://readmill.com/whovian7/reads/mansfield-park/highlights/f5kc8q","user":{"id":152726,"username":"whovian7","firstname":null,"fullname":"whovian7","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/whovian7"},"locators":{"position":0.5775425,"mid":"\"I
+        am worn out with civility,\"","post":" said he. \"I have been talking","rmsdk":{"start":"OPS/main27.xml#point(/1/4/2/2/6/40/1:1716)","end":"OPS/main27.xml#point(/1/4/2/2/6/40/1:1746)"},"pre":"th
+        whom it could find repose. "},"comments_count":0,"likes_count":0,"reading":{"id":430600}}},{"highlight":{"id":827428,"position":0.148813,"content":"Similar
+        clauses introduced by where and when are similarly punctuated.","highlighted_at":"2013-12-16T06:09:39Z","permalink":"rg-osw","permalink_url":"https://readmill.com/iammai/reads/the-elements-of-style/highlights/rg-osw","user":{"id":210723,"username":"iammai","firstname":"Mai","fullname":"Mai
+        D.","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F63c360ff4adb04a5b9b7e615a467a1741cab0b92-original.png&width=50","followers_count":0,"followings_count":4,"permalink_url":"https://readmill.com/iammai"},"locators":{"position":0.1488129,"mid":"Similar
+        clauses introduced by where and when are similarly punctuated.","post":" In
+        1769, when Napoleon was b","rmsdk":{"start":"OPS/main3.xml#point(/1/4/2/2/4/17:1)","end":"OPS/main3.xml#point(/1/4/2/2/4/18/5:27)"},"pre":"me
+        more and more interested. "},"comments_count":0,"likes_count":0,"reading":{"id":443411}}},{"highlight":{"id":827427,"position":0.1466,"content":"Non-restrictive
+        relative clauses are, in accordance with this rule, set off by commas.","highlighted_at":"2013-12-16T06:09:22Z","permalink":"5lposg","permalink_url":"https://readmill.com/iammai/reads/the-elements-of-style/highlights/5lposg","user":{"id":210723,"username":"iammai","firstname":"Mai","fullname":"Mai
+        D.","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F63c360ff4adb04a5b9b7e615a467a1741cab0b92-original.png&width=50","followers_count":0,"followings_count":4,"permalink_url":"https://readmill.com/iammai"},"locators":{"position":0.1465996,"mid":"Non-restrictive
+        relative clauses are, in accordance with this rule, set off by commas.","post":"
+        The audience, which had at f","rmsdk":{"start":"OPS/main3.xml#point(/1/4/2/2/4/13:1)","end":"OPS/main3.xml#point(/1/4/2/2/4/15:0)"},"pre":"ect
+        health, is indefensible. "},"comments_count":0,"likes_count":0,"reading":{"id":443411}}},{"highlight":{"id":827426,"position":0.160148,"content":"Restrictive
+        relative clauses are not set off by commas.","highlighted_at":"2013-12-16T06:08:18Z","permalink":"bmfv0q","permalink_url":"https://readmill.com/iammai/reads/the-elements-of-style/highlights/bmfv0q","user":{"id":210723,"username":"iammai","firstname":"Mai","fullname":"Mai
+        D.","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F63c360ff4adb04a5b9b7e615a467a1741cab0b92-original.png&width=50","followers_count":0,"followings_count":4,"permalink_url":"https://readmill.com/iammai"},"locators":{"position":0.1601478,"mid":"Restrictive
+        relative clauses are not set off by commas.","post":" The candidate who best
+        meets","rmsdk":{"start":"OPS/main3.xml#point(/1/4/2/2/4/25:1)","end":"OPS/main3.xml#point(/1/4/2/2/4/26/1:55)"},"pre":"
+        few miles from Bridgewater. "},"comments_count":0,"likes_count":0,"reading":{"id":443411}}},{"highlight":{"id":827424,"position":0.0530568,"content":"equal
+        indifferent abandon.","highlighted_at":"2013-12-16T06:06:10Z","permalink":"fwgy2w","permalink_url":"https://readmill.com/VonBabyDoll/reads/behemoth-1/highlights/fwgy2w","user":{"id":119957,"username":"VonBabyDoll","firstname":"Sever","fullname":"Sever
+        Gray","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":1,"followings_count":2,"permalink_url":"https://readmill.com/VonBabyDoll"},"locators":{"position":0.05305676,"mid":"equal
+        indifferent abandon.","post":" Of course, in the world she i","rmsdk":{"start":"OPS/main6.xml#point(/1/4/2/2/4/2/1:268)","end":"OPS/main6.xml#point(/1/4/2/2/4/3:0)"},"pre":"nd
+        wood and carbon-fibre with "},"comments_count":0,"likes_count":0,"reading":{"id":440291}}},{"highlight":{"id":827421,"position":0.0857921,"content":"\u041d\u0438\u043a\u043e\u0433\u0434\u0430
+        \u043d\u0435 \u0441\u043b\u0443\u0448\u0430\u0439, \u0447\u0442\u043e \u0433\u043e\u0432\u043e\u0440\u0438\u0442
+        \u0440\u0430\u0437\u0443\u043c \u0436\u0435\u043d\u0449\u0438\u043d\u044b.
+        \u0421\u043b\u0443\u0448\u0430\u0439, \u0447\u0442\u043e \u0433\u043e\u0432\u043e\u0440\u0438\u0442
+        \u0435\u0435 \u0442\u0435\u043b\u043e.","highlighted_at":"2013-12-16T06:02:52Z","permalink":"8vvygw","permalink_url":"https://readmill.com/koertee1/reads/novaia-zhzhizn-biez-trusov/highlights/8vvygw","user":{"id":209589,"username":"koertee1","firstname":null,"fullname":"koertee1","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/koertee1"},"locators":{"position":0.08579206,"mid":"\u041d\u0438\u043a\u043e\u0433\u0434\u0430
+        \u043d\u0435 \u0441\u043b\u0443\u0448\u0430\u0439, \u0447\u0442\u043e \u0433\u043e\u0432\u043e\u0440\u0438\u0442
+        \u0440\u0430\u0437\u0443\u043c \u0436\u0435\u043d\u0449\u0438\u043d\u044b.
+        \u0421\u043b\u0443\u0448\u0430\u0439, \u0447\u0442\u043e \u0433\u043e\u0432\u043e\u0440\u0438\u0442
+        \u0435\u0435 \u0442\u0435\u043b\u043e.","post":" \u0421\u043e\u0431\u043b\u0430\u0437\u043d\u0435\u043d\u0438\u0435
+        \u2013 \u044d\u0442\u043e \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e
+        ","rmsdk":{"start":"OPS/ch1-4.xhtml#point(/1/4/2/11/18/2/1:14)","end":"OPS/ch1-4.xhtml#point(/1/4/2/11/18/3:0)"},"pre":"
+        \u043c\u043d\u0435!\u00bb \u2013 \u0433\u043e\u0432\u043e\u0440\u0438\u0442
+        \u043e\u043d\u0430! \u0420\u0415\u0417\u042e\u041c\u0415: "},"comments_count":0,"likes_count":0,"reading":{"id":441899}}},{"highlight":{"id":827415,"position":0.285714,"content":"Once
+        we have a corpus we typically want to modify the documents in it, e.g., stemming,
+        stopword removal, et cetera. In tm , all this functionality is subsumed into
+        the concept of a transformation . Transformations are done via the tm_map()
+        function which applies (maps) a function to all elements of the corpus. Basically,
+        all transformations work on single text documents and tm_map() just applies
+        them to all documents in a corpus","highlighted_at":"2013-12-16T06:00:35Z","permalink":"ft4keq","permalink_url":"https://readmill.com/benoitpointet/reads/introduction-to-the-tm-package-text-mining-in-r/highlights/ft4keq","user":{"id":149062,"username":"benoitpointet","firstname":"Beno\u00eet","fullname":"Beno\u00eet
+        Pointet","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252Faf9e073ffc8ebfe546aebe4944817885b9c6d189-original.png&width=50","followers_count":1,"followings_count":4,"permalink_url":"https://readmill.com/benoitpointet"},"locators":{"position":0.2857143,"mid":"Once
+        we have a corpus we typically want to modify the documents in it, e.g., stemming,
+        stopword removal, et cetera. In tm , all this functionality is subsumed into
+        the concept of a transformation . Transformations are done via the tm_map()
+        function which applies (maps) a function to all elements of the corpus. Basically,
+        all transformations work on single text documents and tm_map() just applies
+        them to all documents in a corpus","post":". Converting to Plain Text Do","rmsdk":{"start":"#pdfloc(a35a,2,43,0,0,0,0,1)","end":"#pdfloc(a35a,2,73,26,0,0,1,1)"},"pre":"t\"]])
+        [1] TRUE Transformations "},"comments_count":0,"likes_count":0,"reading":{"id":442928}}},{"highlight":{"id":827412,"position":0.565918,"content":"epoch.","highlighted_at":"2013-12-16T05:59:59Z","permalink":"ltqmxa","permalink_url":"https://readmill.com/whovian7/reads/mansfield-park/highlights/ltqmxa","user":{"id":152726,"username":"whovian7","firstname":null,"fullname":"whovian7","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/whovian7"},"locators":{"position":0.5659176,"mid":"epoch.","post":"
+        The stiffness of the meeting ","rmsdk":{"start":"OPS/main27.xml#point(/1/4/2/2/6/16/1:58)","end":"OPS/main27.xml#point(/1/4/2/2/6/16/1:64)"},"pre":"nd
+        Crawfords was a favourable "},"comments_count":0,"likes_count":0,"reading":{"id":430600}}},{"highlight":{"id":827411,"position":0.0659341,"content":"Ella
+        no es hermosa, pero yo tampoco lo soy. Tampoco es que sea fea, aunque yo tampoco
+        lo soy","highlighted_at":"2013-12-16T05:59:52Z","permalink":"kaq7eq","permalink_url":"https://readmill.com/ortizmendoza1972/reads/mo-han/highlights/kaq7eq","user":{"id":200970,"username":"ortizmendoza1972","firstname":"Francisco","fullname":"Francisco
+        Ortiz","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/ortizmendoza1972"},"locators":{"position":0.06593407,"mid":"Ella
+        no es hermosa, pero yo tampoco lo soy. Tampoco es que sea fea, aunque yo tampoco
+        lo soy","post":". No era m\u00e1s que una ni\u00f1a des","rmsdk":{"start":"#pdfloc(4971,24,187,25,4,0,0,1)","end":"#pdfloc(4971,24,195,7,1,0,1,1)"},"pre":"n
+        del ej\u00e9rcito el a\u00f1o pasado. "},"comments_count":0,"likes_count":0,"reading":{"id":416468}}},{"highlight":{"id":827410,"position":0.565611,"content":"and
+        to curtsey, and speak again.","highlighted_at":"2013-12-16T05:59:44Z","permalink":"9bnkrg","permalink_url":"https://readmill.com/whovian7/reads/mansfield-park/highlights/9bnkrg","user":{"id":152726,"username":"whovian7","firstname":null,"fullname":"whovian7","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/whovian7"},"locators":{"position":0.5656107,"mid":"and
+        to curtsey, and speak again.","post":" This was a hard duty, and she","rmsdk":{"start":"OPS/main27.xml#point(/1/4/2/2/6/14/1:475)","end":"OPS/main27.xml#point(/1/4/2/2/6/14/1:507)"},"pre":",
+        and forced to be spoken to, "},"comments_count":0,"likes_count":0,"reading":{"id":430600}}},{"highlight":{"id":827409,"position":0.565523,"content":"She
+        was introduced here and there by her uncle, and forced to be spoken to,","highlighted_at":"2013-12-16T05:59:36Z","permalink":"rkg02w","permalink_url":"https://readmill.com/whovian7/reads/mansfield-park/highlights/rkg02w","user":{"id":152726,"username":"whovian7","firstname":null,"fullname":"whovian7","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/whovian7"},"locators":{"position":0.5655227,"mid":"She
+        was introduced here and there by her uncle, and forced to be spoken to,","post":"
+        and to curtsey, and speak aga","rmsdk":{"start":"OPS/main27.xml#point(/1/4/2/2/6/14/1:399)","end":"OPS/main27.xml#point(/1/4/2/2/6/14/1:474)"},"pre":"on
+        to endure something worse. "},"comments_count":0,"likes_count":0,"reading":{"id":430600}}}],"status":200}'
+    http_version: 
+  recorded_at: Mon, 16 Dec 2013 06:18:46 GMT
+recorded_with: VCR 2.8.0

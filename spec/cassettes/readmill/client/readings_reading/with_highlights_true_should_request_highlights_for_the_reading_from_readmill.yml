@@ -1,0 +1,90 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.readmill.com/v2/readings/234482/highlights
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Authorization:
+      - Client READMILL_CLIENT_ID
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 16 Dec 2013 06:41:39 GMT
+      Etag:
+      - '"bd1264cd39ba8f4cb97ba41dc280ae46"'
+      Server:
+      - nginx/1.0.12
+      Status:
+      - 200 OK
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 16da7ab7e26ee4445c3258d11c8ba595
+      X-Runtime:
+      - '0.233516'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '12412'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"pagination":{"next":null},"items":[{"highlight":{"id":827472,"position":0.302225,"content":"ardour","highlighted_at":"2013-12-16T06:40:49Z","permalink":"stxcrw","permalink_url":"https://readmill.com/mricardosantos/reads/essays-in-the-art-of-writing/highlights/stxcrw","user":{"id":73316,"username":"mricardosantos","firstname":null,"fullname":"mricardosantos","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/mricardosantos"},"locators":{"position":0.302225,"mid":"ardour","post":"
+        of a first love; and he enjoy","rmsdk":{"start":"OPS/main1.xml#point(/1/4/2/2/4/2/3:1407)","end":"OPS/main1.xml#point(/1/4/2/2/4/2/3:1413)"},"pre":"noble
+        design, at least in the "},"comments_count":0,"likes_count":0,"reading":{"id":234482}}},{"highlight":{"id":827471,"position":0.299032,"content":"slovenly,","highlighted_at":"2013-12-16T06:39:56Z","permalink":"jr7hjq","permalink_url":"https://readmill.com/mricardosantos/reads/essays-in-the-art-of-writing/highlights/jr7hjq","user":{"id":73316,"username":"mricardosantos","firstname":null,"fullname":"mricardosantos","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/mricardosantos"},"locators":{"position":0.2990324,"mid":"slovenly,","post":"
+        base, untrue, and empty liter","rmsdk":{"start":"OPS/main1.xml#point(/1/4/2/2/4/2/3:948)","end":"OPS/main1.xml#point(/1/4/2/2/4/2/3:957)"},"pre":"ill
+        pardon me the epithets, a "},"comments_count":0,"likes_count":0,"reading":{"id":234482}}},{"highlight":{"id":827470,"position":0.298949,"content":"epithets,","highlighted_at":"2013-12-16T06:39:06Z","permalink":"6y79mg","permalink_url":"https://readmill.com/mricardosantos/reads/essays-in-the-art-of-writing/highlights/6y79mg","user":{"id":73316,"username":"mricardosantos","firstname":null,"fullname":"mricardosantos","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/mricardosantos"},"locators":{"position":0.2989489,"mid":"epithets,","post":"
+        a slovenly, base, untrue, and","rmsdk":{"start":"OPS/main1.xml#point(/1/4/2/2/4/2/3:936)","end":"OPS/main1.xml#point(/1/4/2/2/4/2/3:945)"},"pre":"nce,
+        if he will pardon me the "},"comments_count":0,"likes_count":0,"reading":{"id":234482}}},{"highlight":{"id":827460,"position":0.281018,"content":"hiatus,","highlighted_at":"2013-12-16T06:33:48Z","permalink":"xzkueq","permalink_url":"https://readmill.com/mricardosantos/reads/essays-in-the-art-of-writing/highlights/xzkueq","user":{"id":73316,"username":"mricardosantos","firstname":null,"fullname":"mricardosantos","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/mricardosantos"},"locators":{"position":0.2810179,"mid":"hiatus,","post":"
+        and whole phrases not to be a","rmsdk":{"start":"OPS/main0.xml#point(/1/4/2/2/4/90/1:581)","end":"OPS/main0.xml#point(/1/4/2/2/4/90/1:588)"},"pre":"
+        relieved by the jaw-breaking "},"comments_count":0,"likes_count":0,"reading":{"id":234482}}},{"highlight":{"id":827459,"position":0.280457,"content":"cacophony","highlighted_at":"2013-12-16T06:33:11Z","permalink":"0ghswa","permalink_url":"https://readmill.com/mricardosantos/reads/essays-in-the-art-of-writing/highlights/0ghswa","user":{"id":73316,"username":"mricardosantos","firstname":null,"fullname":"mricardosantos","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/mricardosantos"},"locators":{"position":0.2804573,"mid":"cacophony","post":"
+        supreme, the rattle of incong","rmsdk":{"start":"OPS/main0.xml#point(/1/4/2/2/4/90/1:491)","end":"OPS/main0.xml#point(/1/4/2/2/4/90/1:500)"},"pre":"
+        There, indeed, you will find "},"comments_count":0,"likes_count":0,"reading":{"id":234482}}},{"highlight":{"id":827069,"position":0.230842,"content":"usurp","highlighted_at":"2013-12-16T04:38:54Z","permalink":"7n6vca","permalink_url":"https://readmill.com/mricardosantos/reads/essays-in-the-art-of-writing/highlights/7n6vca","user":{"id":73316,"username":"mricardosantos","firstname":null,"fullname":"mricardosantos","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/mricardosantos"},"locators":{"position":0.230842,"mid":"usurp","post":"
+        the ear. It becomes, therefo","rmsdk":{"start":"OPS/main0.xml#point(/1/4/2/2/4/58/1:369)","end":"OPS/main0.xml#point(/1/4/2/2/4/58/1:374)"},"pre":"stand
+        more boldly forward and "},"comments_count":0,"likes_count":0,"reading":{"id":234482}}},{"highlight":{"id":826679,"position":0.186148,"content":"scansion,","highlighted_at":"2013-12-16T02:43:48Z","permalink":"ahkc_w","permalink_url":"https://readmill.com/mricardosantos/reads/essays-in-the-art-of-writing/highlights/ahkc_w","user":{"id":73316,"username":"mricardosantos","firstname":null,"fullname":"mricardosantos","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/mricardosantos"},"locators":{"position":0.1861481,"mid":"scansion,","post":"
+        we see the laws of prosody to","rmsdk":{"start":"OPS/main0.xml#point(/1/4/2/2/4/48/1:470)","end":"OPS/main0.xml#point(/1/4/2/2/4/48/1:479)"},"pre":"d
+        the degree of regularity in "},"comments_count":0,"likes_count":0,"reading":{"id":234482}}},{"highlight":{"id":821382,"position":0.132446,"content":"all
+        that we have a right to ask of any prosody is, that it shall lay down a pattern
+        for the writer,","highlighted_at":"2013-12-15T02:32:44Z","permalink":"5grveg","permalink_url":"https://readmill.com/mricardosantos/reads/essays-in-the-art-of-writing/highlights/5grveg","user":{"id":73316,"username":"mricardosantos","firstname":null,"fullname":"mricardosantos","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/mricardosantos"},"locators":{"position":0.1324456,"mid":"all
+        that we have a right to ask of any prosody is, that it shall lay down a pattern
+        for the writer,","post":" and that what it lays down sh","rmsdk":{"start":"OPS/main0.xml#point(/1/4/2/2/4/22/1:897)","end":"OPS/main0.xml#point(/1/4/2/2/4/22/1:996)"},"pre":"
+        may have no inherent beauty; "},"comments_count":0,"likes_count":0,"reading":{"id":234482}}},{"highlight":{"id":821359,"position":0.12167,"content":"The
+        web, then, or the pattern: a web at once sensuous and logical, an elegant
+        and pregnant texture: that is style, that is the foundation of the art of
+        literature.","highlighted_at":"2013-12-15T02:27:09Z","permalink":"sufazq","permalink_url":"https://readmill.com/mricardosantos/reads/essays-in-the-art-of-writing/highlights/sufazq","user":{"id":73316,"username":"mricardosantos","firstname":null,"fullname":"mricardosantos","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/mricardosantos"},"locators":{"position":0.1216703,"mid":"The
+        web, then, or the pattern: a web at once sensuous and logical, an elegant
+        and pregnant texture: that is style, that is the foundation of the art of
+        literature.","post":" Books indeed continue to be ","rmsdk":{"start":"OPS/main0.xml#point(/1/4/2/2/4/19:1)","end":"OPS/main0.xml#point(/1/4/2/2/4/20/1:163)"},"pre":"perspicuously
+        bound into one. "},"comments_count":0,"likes_count":0,"reading":{"id":234482}}},{"highlight":{"id":787896,"position":0.0905886,"content":"it
+        may be said with sufficient justice that the motive and end of any art whatever
+        is to make a pattern; a pattern, it may be, of colours, of sounds, of changing
+        attitudes, geometrical figures, or imitative lines; but still a pattern.","highlighted_at":"2013-12-08T03:17:35Z","permalink":"asl-vw","permalink_url":"https://readmill.com/mricardosantos/reads/essays-in-the-art-of-writing/highlights/asl-vw","user":{"id":73316,"username":"mricardosantos","firstname":null,"fullname":"mricardosantos","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/mricardosantos"},"locators":{"position":0.09058861,"mid":"it
+        may be said with sufficient justice that the motive and end of any art whatever
+        is to make a pattern; a pattern, it may be, of colours, of sounds, of changing
+        attitudes, geometrical figures, or imitative lines; but still a pattern.","post":"
+        That is the plane on which t","rmsdk":{"start":"OPS/main0.xml#point(/1/4/2/2/4/12/2:551)","end":"OPS/main0.xml#point(/1/4/2/2/4/12/2:785)"},"pre":"mmon
+        ground of existence, and "},"comments_count":0,"likes_count":0,"reading":{"id":234482}}},{"highlight":{"id":623828,"position":0.186329,"content":"prosody","highlighted_at":"2013-10-07T05:19:59Z","permalink":"oqrdqg","permalink_url":"https://readmill.com/mricardosantos/reads/essays-in-the-art-of-writing/highlights/oqrdqg","user":{"id":73316,"username":"mricardosantos","firstname":null,"fullname":"mricardosantos","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/mricardosantos"},"locators":{"position":0.1863285,"mid":"prosody","post":"
+        to have one common purpose: t","rmsdk":{"start":"OPS/main0.xml#point(/1/4/2/2/4/48/1:499)","end":"OPS/main0.xml#point(/1/4/2/2/4/48/1:506)"},"pre":"
+        scansion, we see the laws of "},"comments_count":0,"likes_count":0,"reading":{"id":234482}}},{"highlight":{"id":623826,"position":0.183902,"content":"scansion","highlighted_at":"2013-10-07T05:19:02Z","permalink":"ppihsq","permalink_url":"https://readmill.com/mricardosantos/reads/essays-in-the-art-of-writing/highlights/ppihsq","user":{"id":73316,"username":"mricardosantos","firstname":null,"fullname":"mricardosantos","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/mricardosantos"},"locators":{"position":0.1839022,"mid":"scansion","post":"
+        of the groups is an adornment","rmsdk":{"start":"OPS/main0.xml#point(/1/4/2/2/4/48/1:109)","end":"OPS/main0.xml#point(/1/4/2/2/4/48/1:117)"},"pre":"een
+        suggested. The eccentric "},"comments_count":0,"likes_count":0,"reading":{"id":234482}}}],"status":200}'
+    http_version: 
+  recorded_at: Mon, 16 Dec 2013 06:41:39 GMT
+recorded_with: VCR 2.8.0

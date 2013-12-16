@@ -44,17 +44,31 @@ module Readmill
       #
       # Returns a Hashie::Mash.
       def reading(id, opts={})
-        if opts[:periods] && opts[:locations]
-          raise ArgumentError,
-            'You can pass either periods or locations, but not both.'
-        end
+        ensure_valid_reading_options(opts)
 
         if opts.delete(:periods)
           get("readings/#{id}/periods", opts).items
         elsif opts.delete(:locations)
           get("readings/#{id}/locations", opts).items
+        elsif opts.delete(:highlights)
+          get("readings/#{id}/highlights", opts).items
         else
           get("readings/#{id}", opts)
+        end
+      end
+
+
+    protected
+
+      # Internal: This method will raise an error if any two of periods,
+      # locations, or highlights is true.
+      #
+      # Raises ArgumentError.
+      # Returns nothing.
+      def ensure_valid_reading_options(opts)
+        if opts.values_at(:periods, :locations, :highlights).grep(true).size > 1
+          raise ArgumentError,
+            'You can only set one of periods, locations, and highlights.'
         end
       end
 

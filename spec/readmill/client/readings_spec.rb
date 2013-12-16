@@ -79,11 +79,33 @@ describe Readmill::Client::Readings do
       end
     end
 
-    context 'with periods true and locations true' do
-      it 'should raise an argument error' do
-        expect { client.reading(443173, periods: true, locations: true) }.to(
-          raise_error(ArgumentError, /either periods or locations, but not both/)
-        )
+    context 'with highlights true' do
+      let (:results) { client.reading(234482, highlights: true) }
+
+      it 'should request highlights for the reading from readmill' do
+        results
+        assert_requested :get, readmill_url('readings/234482/highlights')
+      end
+
+      it 'should return an array of highlights' do
+        expect(results).to be_a(Array)
+        expect(results.first).to respond_to(:highlight)
+      end
+    end
+
+    [
+      { periods: true, locations: true, highlights: false },
+      { periods: true, locations: false, highlights: true },
+      { periods: false, locations: true, highlights: true }
+    ].each do |opts|
+      context "with periods #{opts[:periods]}, locations #{opts[:locations]}, and highlights #{opts[:highlights]}" do
+        it 'should raise an argument error' do
+          expect { client.reading(443173, periods: opts[:periods],
+                                          locations: opts[:locations],
+                                          highlights: opts[:highlights]) }.to(
+            raise_error(ArgumentError, /You can only set one of periods, locations, and highlights/)
+          )
+        end
       end
     end
   end
