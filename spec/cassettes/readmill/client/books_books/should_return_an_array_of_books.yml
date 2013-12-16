@@ -1,0 +1,92 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.readmill.com/v2/books
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Authorization:
+      - Client READMILL_CLIENT_ID
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 16 Dec 2013 03:35:14 GMT
+      Etag:
+      - '"63c3547bfbe2bac2bfdb26d0d5929376"'
+      Server:
+      - nginx/1.0.12
+      Status:
+      - 200 OK
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 382d5a631212d178be472aed493af446
+      X-Runtime:
+      - '0.162167'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '16069'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"pagination":{"next":"https://api.readmill.com/v2/books?offset=0&order=created_at&to=2013-12-16+03%3A06%3A08+UTC"},"items":[{"book":{"id":360767,"title":"Wave
+        (2013)","author":"Deraniyagala, Sonali","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"wave-2013","permalink_url":"https://readmill.com/books/wave-2013","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Fcovers%252Facf504a58ad1d1974e9eea3001cdb5119eb98e62-original.png&width=120","cover_metadata":{"original_width":525,"original_height":700},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360766,"title":"We
+        All Scream","author":"Nona Wesley","identifier":"9781606595480","story":null,"published_at":null,"language":null,"permalink":"we-all-scream","permalink_url":"https://readmill.com/books/we-all-scream","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360765,"title":"AVENGING
+        ANGEL","author":"Tara Janzen","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"avenging-angel-2","permalink_url":"https://readmill.com/books/avenging-angel-2","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360764,"title":"AC.BOW.06
+        BLACK FLAG","author":"Assassin''s Creed","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"ac-dot-bow-dot-06-black-flag","permalink_url":"https://readmill.com/books/ac-dot-bow-dot-06-black-flag","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360763,"title":"First
+        Thing I See","author":"Keeland, Vi","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"first-thing-i-see","permalink_url":"https://readmill.com/books/first-thing-i-see","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Fcovers%252Ff2a7b3aea7430a65c85535a46959651db3d7f1c7-original.png&width=120","cover_metadata":{"original_width":500,"original_height":751},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360762,"title":"ASOIAF.MAR.99
+        THE A SONG OF ICE AND FIRE SERIES","author":"George R. R. Martin","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"asoiaf-dot-mar-dot-99-the-a-song-of-ice-and-fire-series","permalink_url":"https://readmill.com/books/asoiaf-dot-mar-dot-99-the-a-song-of-ice-and-fire-series","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360761,"title":"Richelle''s
+        Tale","author":"Kelli Wolfe","identifier":null,"story":"Princess Richelle
+        is given to the human priests of the Five Gods and enslaved. To preserve her
+        life she must submit to High Priest Lucan and his friends and serve them body
+        and soul. Will she bow to them and allow them to sate their lusts on her innocence,
+        or will she feed the hunger of their dark gods?","published_at":null,"language":null,"permalink":"richelles-tale","permalink_url":"https://readmill.com/books/richelles-tale","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Fcovers%252F0a9d41d66a85b3e3d95bd171894c91a08565d52c-original.png&width=120","cover_metadata":{"original_width":546,"original_height":819},"assets":{"items":[]},"readings_count":1,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360760,"title":"Fall
+        From Love","author":"Heather London","identifier":null,"story":"Struggling
+        to put her life back together after a tragic mountaineering accident kills
+        her college sweetheart, twenty-one-year-old Holly Treadwell is trying to set
+        aside her grief, forge ahead in school, and find herself again.When Carter
+        Hansen, a guy who brings back horrible memories from the night of the accident,
+        finds his way back into her life, Holly\u2019s unsure if she should let him
+        in. He terrifies her in more ways than one and invokes feelings in her that
+        she thought were buried forever. Regardless of her fears, she knows she must
+        face him in order for her heart to heal. Everyone tells Carter that what happened
+        on the mountain that night was just a terrible accident, but even then, he
+        can\u2019t help but carry around the guilt and is unable to forgive himself.
+        He\u2019s drawn to Holly and being near her helps ease his conscience and
+        gives him the release he needs.As Holly and Carter\u2019s relationship grows,
+        they begin to realize that the more time they spend with one another, the
+        more their wounds begin to heal\u2014her grief and his guilt. But when Holly
+        learns the details about the night of the accident\u2014what everyone has
+        been keeping from her\u2014it will rip open old wounds and tear apart what
+        they\u2019ve both worked so hard to overcome\u2026","published_at":null,"language":null,"permalink":"fall-from-love","permalink_url":"https://readmill.com/books/fall-from-love","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Fcovers%252F1788abbfe4951913a6f3824f7f299471e3ee7566-original.png&width=120","cover_metadata":{"original_width":491,"original_height":751},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360759,"title":"Getting
+        It Right","author":"Kaje Harper","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"getting-it-right-1","permalink_url":"https://readmill.com/books/getting-it-right-1","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":1,"recommended_readings_count":0,"active_and_finished_readings_count":1,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360758,"title":"The
+        Christian in Complete Armour","author":"William Gurnall","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"the-christian-in-complete-armour","permalink_url":"https://readmill.com/books/the-christian-in-complete-armour","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Fcovers%252Fc886f9d040060e59c6d2b63e8e42e38b70b665ee-original.png&width=120","cover_metadata":{"original_width":200,"original_height":304},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360757,"title":"i
+        e38186562a84eac0","author":"Unknown","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"i-e38186562a84eac0","permalink_url":"https://readmill.com/books/i-e38186562a84eac0","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":1,"recommended_readings_count":0,"active_and_finished_readings_count":1,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360756,"title":"i
+        721547deeb95f2ba","author":"intern","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"i-721547deeb95f2ba","permalink_url":"https://readmill.com/books/i-721547deeb95f2ba","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360755,"title":"Echoes
+        from the Orient","author":"Chiqui Morrow","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"echoes-from-the-orient","permalink_url":"https://readmill.com/books/echoes-from-the-orient","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":1,"recommended_readings_count":0,"active_and_finished_readings_count":1,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360754,"title":"Microsoft
+        Word - book_4 - edit - 7 - two paragraphs inserted.doc","author":"Ian","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"microsoft-word-book-4-edit-7-two-paragraphs-inserted-dot-doc","permalink_url":"https://readmill.com/books/microsoft-word-book-4-edit-7-two-paragraphs-inserted-dot-doc","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360753,"title":"Microsoft
+        Word - book_5 - edit - 6.doc","author":"Ian","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"microsoft-word-book-5-edit-6-dot-doc","permalink_url":"https://readmill.com/books/microsoft-word-book-5-edit-6-dot-doc","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360752,"title":"AC.BOW.05
+        FORSAKEN","author":"Assassin''s Creed","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"ac-dot-bow-dot-05-forsaken","permalink_url":"https://readmill.com/books/ac-dot-bow-dot-05-forsaken","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360751,"title":"subway_web_map_Sep12.eps","author":"Chuck","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"subway-web-map-sep12-dot-eps","permalink_url":"https://readmill.com/books/subway-web-map-sep12-dot-eps","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360750,"title":"NFT
+        Guide April 2008.cwk","author":"Craig Elevitch1","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"nft-guide-april-2008-dot-cwk","permalink_url":"https://readmill.com/books/nft-guide-april-2008-dot-cwk","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":1,"recommended_readings_count":0,"active_and_finished_readings_count":1,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360749,"title":"Mowers","author":"Jordan
+        B","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"mowers","permalink_url":"https://readmill.com/books/mowers","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":1,"recommended_readings_count":0,"active_and_finished_readings_count":1,"average_duration":null,"featured":false,"price_segment":null}},{"book":{"id":360748,"title":"Anthropology:
+        Appreciating Human Diversity","author":"Conrad P Kottak","identifier":null,"story":null,"published_at":null,"language":null,"permalink":"anthropology-appreciating-human-diversity","permalink_url":"https://readmill.com/books/anthropology-appreciating-human-diversity","cover_url":"https://d26cmntuippvfl.cloudfront.net/?action=shrink-w&format=png&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-cover-original-a8cdd3ce01730b6af1039cff21184295.png&width=120","cover_metadata":{"original_width":1200,"original_height":1800},"assets":{"items":[]},"readings_count":0,"recommended_readings_count":0,"active_and_finished_readings_count":0,"average_duration":null,"featured":false,"price_segment":null}}],"status":200}'
+    http_version: 
+  recorded_at: Mon, 16 Dec 2013 03:35:14 GMT
+recorded_with: VCR 2.8.0

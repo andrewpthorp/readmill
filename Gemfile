@@ -14,6 +14,8 @@ group :test do
   gem 'rspec'
   gem 'webmock'
   gem 'hashie'
+  gem 'vcr'
+  gem 'dotenv'
 end
 
 gemspec
