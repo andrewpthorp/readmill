@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.readmill.com/v2/readings/443173/locations
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Authorization:
+      - Client READMILL_CLIENT_ID
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 16 Dec 2013 05:58:02 GMT
+      Etag:
+      - '"3f2b6030822df2e9cfc2cbe51a9578f6"'
+      Server:
+      - nginx/1.0.12
+      Status:
+      - 200 OK
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - cfb10f6b7e49cff9a09a06a5287def41
+      X-Runtime:
+      - '0.046290'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '52'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"pagination":{"next":null},"items":[{"location":{"id":9298,"created_at":"2011-12-25T15:50:31Z","period":{"id":7582},"reading":{"id":32900},"lat":47.442,"lng":8.59787}}],"status":200}'
+    http_version:
+  recorded_at: Mon, 16 Dec 2013 05:58:01 GMT
+recorded_with: VCR 2.8.0

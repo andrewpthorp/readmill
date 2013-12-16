@@ -64,6 +64,28 @@ describe Readmill::Client::Readings do
         expect(results.first).to respond_to(:period)
       end
     end
+
+    context 'with locations true' do
+      let (:results) { client.reading(443173, locations: true) }
+
+      it 'should request locations for the reading from readmill' do
+        results
+        assert_requested :get, readmill_url('readings/443173/locations')
+      end
+
+      it 'should return an array of locations' do
+        expect(results).to be_a(Array)
+        expect(results.first).to respond_to(:location)
+      end
+    end
+
+    context 'with periods true and locations true' do
+      it 'should raise an argument error' do
+        expect { client.reading(443173, periods: true, locations: true) }.to(
+          raise_error(ArgumentError, /either periods or locations, but not both/)
+        )
+      end
+    end
   end
 
 end

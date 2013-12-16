@@ -37,13 +37,22 @@ module Readmill
       # opts  - A Hash of options used to modify the results. All of the values
       #         of this Hash will be forwarded to the API as parameters
       #         (default: {}).
-      #         :periods  - Boolean whether to get the periods or not
-      #                     (default: false).
+      #         :periods    - Boolean whether to get the periods or not
+      #                       (default: false).
+      #         :locations  - Boolean whether to get the locations or not
+      #                       (default: false).
       #
       # Returns a Hashie::Mash.
       def reading(id, opts={})
+        if opts[:periods] && opts[:locations]
+          raise ArgumentError,
+            'You can pass either periods or locations, but not both.'
+        end
+
         if opts.delete(:periods)
           get("readings/#{id}/periods", opts).items
+        elsif opts.delete(:locations)
+          get("readings/#{id}/locations", opts).items
         else
           get("readings/#{id}", opts)
         end
