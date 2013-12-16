@@ -36,3 +36,9 @@ You can view their API docs [here.](http://developers.readmill.com/api/docs/v2/)
 - Wrap the Search endpoints
 - Wrap authenticated (OAuth) endpoints
 
+### Copyright
+
+Copyright (c) 2013 Andrew Thorp. See [LICENSE][] for details.
+
+[license]: LICENSE.md
+
