@@ -17,16 +17,30 @@ describe Readmill::Client::Readings do
     end
 
     context 'with a book_id' do
+      let (:results) { client.readings(book_id: 269082) }
+
       it 'should request all readings for the book' do
-        client.readings(book_id: 269082)
+        results
         assert_requested :get, readmill_url('books/269082/readings')
+      end
+
+      it 'should return an array of readings' do
+        expect(results).to be_a(Array)
+        expect(results.first).to respond_to(:reading)
       end
     end
 
     context 'with a user_id' do
+      let (:results) { client.readings(user_id: 45146) }
+
       it 'should request all readings for the user' do
-        client.readings(user_id: 45146)
+        results
         assert_requested :get, readmill_url('users/45146/readings')
+      end
+
+      it 'should return an array of readings' do
+        expect(results).to be_a(Array)
+        expect(results.first).to respond_to(:reading)
       end
     end
 
