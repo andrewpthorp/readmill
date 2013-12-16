@@ -32,6 +32,10 @@ module Readmill
         request.url(path, opts)
         request.options[:timeout] = timeout
         request.options[:open_timeout] = open_timeout
+
+        unless client_id.nil?
+          request.headers['Authorization'] = "Client #{client_id}"
+        end
       end
 
       response.body
@@ -43,7 +47,6 @@ module Readmill
     # Returns a Faraday::Connection.
     def connection
       options = { url: api_url, ssl: { verify: false } }
-      options.merge!(params: { client_id: client_id }) unless client_id.nil?
 
       connection = Faraday.new(options) do |conn|
         conn.response :readmill_errors
