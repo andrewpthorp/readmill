@@ -1,6 +1,7 @@
 require 'readmill/request'
 require 'readmill/configuration'
 require 'readmill/client/books'
+require 'readmill/client/closing_remarks'
 require 'readmill/client/comments'
 require 'readmill/client/highlights'
 require 'readmill/client/locations'
@@ -41,6 +42,7 @@ module Readmill
 
     include Readmill::Request
     include Readmill::Client::Books
+    include Readmill::Client::ClosingRemarks
     include Readmill::Client::Comments
     include Readmill::Client::Highlights
     include Readmill::Client::Locations

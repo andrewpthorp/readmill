@@ -27,7 +27,14 @@ module Readmill
       #
       # Returns a Hashie::Mash.
       def book(id, opts={})
-        if opts.delete(:readers)
+        if opts[:closing_remarks] && opts[:readers]
+          raise ArgumentError,
+            'You can pass either closing_remarks or readers, but not both.'
+        end
+
+        if opts.delete(:closing_remarks)
+          get("books/#{id}/closing_remarks", opts).items
+        elsif opts.delete(:readers)
           get("books/#{id}/readers", opts).items
         else
           get("books/#{id}", opts)

@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.readmill.com/v2/closing_remarks/9088
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Authorization:
+      - Client READMILL_CLIENT_ID
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 16 Dec 2013 17:38:12 GMT
+      Etag:
+      - '"089abb631405170d26a87fe9ed602a21"'
+      Server:
+      - nginx/1.0.12
+      Status:
+      - 200 OK
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - addcd6da19968d32d7f101f3cc643f2a
+      X-Runtime:
+      - '0.116654'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '633'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"closing_remark":{"id":9088,"content":"A must read for anyone building
+        (or planning to build) a startup.","reading":{"id":318374},"user":{"id":34764,"username":"sagmor","firstname":"Seba","fullname":"Seba
+        Gamboa","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F7392433d1d87b8a102089db66b9a63deca58a231-original.png&width=50","followers_count":0,"followings_count":4,"permalink_url":"https://readmill.com/sagmor"},"recommended":false,"comments_count":0,"likes_count":0,"created_at":"2013-10-17T13:18:25Z"},"status":200}'
+    http_version: 
+  recorded_at: Mon, 16 Dec 2013 17:38:12 GMT
+recorded_with: VCR 2.8.0

@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.readmill.com/v2/books/1/closing_remarks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Authorization:
+      - Client READMILL_CLIENT_ID
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 16 Dec 2013 17:35:27 GMT
+      Etag:
+      - '"75b35c30658029e3e3c23f6022060dfd"'
+      Server:
+      - nginx/1.0.12
+      Status:
+      - 200 OK
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - dcffd07c901ace45ee64709550828106
+      X-Runtime:
+      - '0.100943'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '1393'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"pagination":{"next":null},"items":[{"closing_remark":{"id":9088,"content":"A
+        must read for anyone building (or planning to build) a startup.","reading":{"id":318374},"user":{"id":34764,"username":"sagmor","firstname":"Seba","fullname":"Seba
+        Gamboa","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F7392433d1d87b8a102089db66b9a63deca58a231-original.png&width=50","followers_count":0,"followings_count":4,"permalink_url":"https://readmill.com/sagmor"},"recommended":false,"comments_count":0,"likes_count":0,"created_at":"2013-10-17T13:18:25Z"}},{"closing_remark":{"id":5,"content":"Very
+        hands on and an easy read. Some of the stories had useful tips that I''ll
+        go back to, but also a fair share of clich\u00e9s. Fun if your starting something
+        yourself.","reading":{"id":45},"user":{"id":5,"username":"david","firstname":"David","fullname":"David
+        Kjelkerud","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F4312d134c34ca088d956790a37d696353f6f8e72-original.png&width=50","followers_count":356,"followings_count":296,"permalink_url":"https://readmill.com/david"},"recommended":false,"comments_count":0,"likes_count":0,"created_at":"2012-10-18T16:29:31Z"}}],"status":200}'
+    http_version: 
+  recorded_at: Mon, 16 Dec 2013 17:35:27 GMT
+recorded_with: VCR 2.8.0
