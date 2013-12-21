@@ -1,0 +1,158 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.readmill.com/v2/highlights/search?query=Steve%20jobs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Authorization:
+      - Client READMILL_CLIENT_ID
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 21 Dec 2013 07:15:48 GMT
+      Etag:
+      - ! '"015ea14fbfface4afb07f1c8f9e33755"'
+      Server:
+      - nginx/1.0.12
+      Status:
+      - 200 OK
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 5e2f1af1585105ac74327e3ab11692b0
+      X-Runtime:
+      - '0.747419'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '20591'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"items":[{"highlight":{"id":2175,"position":0.36214,"content":"Steve
+        Jobs","highlighted_at":"2011-10-23T00:49:24Z","permalink":"e992","permalink_url":"https://readmill.com/AaronGustafson/reads/adaptive-web-design-crafting-rich-experiences-with-progressive-enhancement/highlights/e992","user":{"id":4811,"username":"AaronGustafson","firstname":"Aaron","fullname":"Aaron
+        Gustafson","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F60fba7d80e7fa6cd6985cd7c84f206a8b1cee0f4-original.png&width=50","followers_count":280,"followings_count":244,"permalink_url":"https://readmill.com/AaronGustafson"},"locators":{"position":0.36214,"pre":"\u2014
+        ","mid":"Steve Jobs","post":""},"comments_count":1,"likes_count":0,"reading":{"id":10716}}},{"highlight":{"id":783121,"position":0.00118203,"content":"Steve
+        Jobs","highlighted_at":"2013-12-07T09:40:45Z","permalink":"2_hucg","permalink_url":"https://readmill.com/digitalweddings/reads/steve-jobs/highlights/2_hucg","user":{"id":203093,"username":"digitalweddings","firstname":"Derick","fullname":"Derick
+        Botha","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/digitalweddings"},"locators":{"position":0.001182033,"mid":"Steve
+        Jobs","post":" by Walter IsaacsonFROM THE AU","rmsdk":{"start":"#pdfloc(5f9d,1,29,0,0,0,0,1)","end":"#pdfloc(5f9d,1,29,0,9,0,1,1)"},"pre":""},"comments_count":0,"likes_count":0,"reading":{"id":414242}}},{"highlight":{"id":689127,"position":0.0226615,"content":"to
+        Jobs.","highlighted_at":"2013-11-12T22:34:45Z","permalink":"vfsakw","permalink_url":"https://readmill.com/masami3/reads/steve-jobs/highlights/vfsakw","user":{"id":176410,"username":"masami3","firstname":null,"fullname":"masami3","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/masami3"},"locators":{"position":0.02266147,"mid":"to
+        Jobs.","post":" ELIZABETH HOLMES. Daniel Kott","rmsdk":{"start":"CR!BJHPA831ES3B3F7WSRKZ17DMGSM7_split_010.html#point(/1/4/51/1/2:55)","end":"CR!BJHPA831ES3B3F7WSRKZ17DMGSM7_split_010.html#point(/1/4/52:0)"},"pre":"r
+        with the spirit to stand up "},"comments_count":0,"likes_count":0,"reading":{"id":352382}}},{"highlight":{"id":30638,"position":null,"content":"\u201cSteve
+        understands desire,\u201d","highlighted_at":"2011-11-30T00:00:00Z","permalink":"532f","permalink_url":"https://readmill.com/cercamon/reads/steve-jobs/highlights/532f","user":{"id":8671,"username":"cercamon","firstname":"","fullname":"cercamon","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":1,"permalink_url":"https://readmill.com/cercamon"},"locators":{"mid":"\u201cSteve
+        understands desire,\u201d","pre":"","post":""},"comments_count":0,"likes_count":1,"reading":{"id":32383}}},{"highlight":{"id":608867,"position":null,"content":"It
+        was classic Steve Jobs: Go big.","highlighted_at":"2013-09-25T00:00:00Z","permalink":"c6aixa","permalink_url":"https://readmill.com/NiklasJansen/reads/design-crazy-good-looks-hot-tempers-and-true-genius-at-apple/highlights/c6aixa","user":{"id":12945,"username":"NiklasJansen","firstname":"Niklas","fullname":"Niklas
+        Jansen","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F2df4094c80476586a0fc385a81b9f861c9d72bdc-original.png&width=50","followers_count":18,"followings_count":52,"permalink_url":"https://readmill.com/NiklasJansen"},"locators":{"position":null,"pre":"","mid":"It
+        was classic Steve Jobs: Go big.","post":""},"comments_count":0,"likes_count":0,"reading":{"id":300618}}},{"highlight":{"id":242036,"position":null,"content":"Steve,
+        he knows how to get the magic back.\u201d","highlighted_at":"2012-03-17T00:00:00Z","permalink":"2vqzaw","permalink_url":"https://readmill.com/sylvester/reads/steve-jobs/highlights/2vqzaw","user":{"id":7337,"username":"sylvester","firstname":"","fullname":"sylvester","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252Fd24c3789306db98a6d0fdfa8f4fd5400e55088bc-original.png&width=50","followers_count":1,"followings_count":1,"permalink_url":"https://readmill.com/sylvester"},"locators":{"position":null,"pre":"","mid":"Steve,
+        he knows how to get the magic back.\u201d","post":""},"comments_count":0,"likes_count":0,"reading":{"id":102083}}},{"highlight":{"id":138431,"position":null,"content":"\u201cSteve
+        had a way of motivating by looking at the bigger picture.\u201d","highlighted_at":"2011-11-15T00:00:00Z","permalink":"sx3tna","permalink_url":"https://readmill.com/bjoern_eichstaedt/reads/steve-jobs/highlights/sx3tna","user":{"id":17038,"username":"bjoern_eichstaedt","firstname":"Bjoern","fullname":"Bjoern
+        Eichstaedt","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252Fac3eca7edcfb3aa2cfd4064fc3bf1db179cc638e-original.png&width=50","followers_count":14,"followings_count":9,"permalink_url":"https://readmill.com/bjoern_eichstaedt"},"locators":{"position":null,"pre":"","mid":"\u201cSteve
+        had a way of motivating by looking at the bigger picture.\u201d","post":""},"comments_count":0,"likes_count":0,"reading":{"id":71604}}},{"highlight":{"id":132978,"position":null,"content":"\u201cSteve
+        created the only lifestyle brand in the tech industry,\u201d","highlighted_at":"2011-12-12T00:00:00Z","permalink":"iy0iya","permalink_url":"https://readmill.com/cabral_eva/reads/steve-jobs/highlights/iy0iya","user":{"id":2453,"username":"cabral_eva","firstname":"Eva","fullname":"Eva","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":2,"followings_count":3,"permalink_url":"https://readmill.com/cabral_eva"},"locators":{"position":null,"pre":"","mid":"\u201cSteve
+        created the only lifestyle brand in the tech industry,\u201d","post":""},"comments_count":0,"likes_count":0,"reading":{"id":26911}}},{"highlight":{"id":14431,"position":null,"content":"\u201cHappy
+        28th Steve. The Journey is the Reward.\u2014The Pirates.\u201d","highlighted_at":"2011-12-08T11:51:25Z","permalink":"f80d","permalink_url":"https://readmill.com/sitar/reads/steve-jobs/highlights/f80d","user":{"id":18,"username":"sitar","firstname":"Sitar","fullname":"Sitar
+        Teli","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F05da1cd38275e5a81912337e42c497ed119c3e8c-original.png&width=50","followers_count":58,"followings_count":29,"permalink_url":"https://readmill.com/sitar"},"locators":{"mid":"\u201cHappy
+        28th Steve. The Journey is the Reward.\u2014The Pirates.\u201d","pre":"","post":""},"comments_count":0,"likes_count":0,"reading":{"id":27973}}},{"highlight":{"id":3743,"position":0.502861,"content":"\u201cGil
+        Amelio meets Steve Jobs, game over.\u201d","highlighted_at":"2011-11-13T05:47:42Z","permalink":"3dad","permalink_url":"https://readmill.com/ruiwen/reads/steve-jobs/highlights/3dad","user":{"id":3391,"username":"ruiwen","firstname":"","fullname":"ruiwen","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":13,"followings_count":24,"permalink_url":"https://readmill.com/ruiwen"},"locators":{"position":0.502861,"pre":"
+        shortly after it happened, ","mid":"\u201cGil Amelio meets Steve Jobs, game
+        over.\u201d","post":""},"comments_count":0,"likes_count":0,"reading":{"id":18296}}},{"highlight":{"id":193299,"position":null,"content":"\u201cSteve
+        ran the apple orchard,\u201d said Friedland.","highlighted_at":"2012-05-22T00:00:00Z","permalink":"wrff6q","permalink_url":"https://readmill.com/cmenscher/reads/steve-jobs/highlights/wrff6q","user":{"id":1288,"username":"cmenscher","firstname":"Corey","fullname":"Corey
+        Menscher","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F5d30e2ab889267ba375c50ecf29e35942ebb8e86-original.png&width=50","followers_count":24,"followings_count":10,"permalink_url":"https://readmill.com/cmenscher"},"locators":{"position":null,"pre":"","mid":"\u201cSteve
+        ran the apple orchard,\u201d said Friedland.","post":""},"comments_count":0,"likes_count":0,"reading":{"id":87174}}},{"highlight":{"id":342920,"position":null,"content":"\u201cSteve,
+        these are not low-level people,\u201d Sculley said.","highlighted_at":"2011-11-20T00:00:00Z","permalink":"jdok3w","permalink_url":"https://readmill.com/diegopetrucci/reads/steve-jobs/highlights/jdok3w","user":{"id":13633,"username":"diegopetrucci","firstname":"Diego","fullname":"Diego
+        Petrucci","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F1316790d4e1613915ccc99b39986493c8b6a3620-original.png&width=50","followers_count":39,"followings_count":52,"permalink_url":"https://readmill.com/diegopetrucci"},"locators":{"position":null,"pre":"","mid":"\u201cSteve,
+        these are not low-level people,\u201d Sculley said.","post":""},"comments_count":0,"likes_count":0,"reading":{"id":143152}}},{"highlight":{"id":434879,"position":null,"content":"Wozniak,
+        Steve, with Gina Smith. iWoz. Norton, 2006.","highlighted_at":"2011-11-28T00:00:00Z","permalink":"ubwg8w","permalink_url":"https://readmill.com/ianmyles/reads/steve-jobs/highlights/ubwg8w","user":{"id":82631,"username":"ianmyles","firstname":null,"fullname":"ianmyles","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Fd15fum6h02z48v.cloudfront.net%252Fassets%252Fdefault-avatar-original-b0c7339fbb5969b50914c1a731503733.png&width=50","followers_count":0,"followings_count":2,"permalink_url":"https://readmill.com/ianmyles"},"locators":{"position":null,"pre":"","mid":"Wozniak,
+        Steve, with Gina Smith. iWoz. Norton, 2006.","post":""},"comments_count":0,"likes_count":0,"reading":{"id":191905}}},{"highlight":{"id":238642,"position":null,"content":"He
+        emphasized that you should never start a company with the goal of getting
+        rich. Your goal should be making something you believe in and making a company
+        that will last.\u201d","highlighted_at":"2011-11-16T00:00:00Z","permalink":"a3ozng","permalink_url":"https://readmill.com/gdennis/reads/steve-jobs/highlights/a3ozng","user":{"id":29826,"username":"gdennis","firstname":"Geoffrey","fullname":"Geoffrey
+        Dennis","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F1b12ffb8344295b4cc59321d98640fb0b240cd8e-original.png&width=50","followers_count":1,"followings_count":8,"permalink_url":"https://readmill.com/gdennis"},"locators":{"position":null,"pre":"","mid":"He
+        emphasized that you should never start a company with the goal of getting
+        rich. Your goal should be making something you believe in and making a company
+        that will last.\u201d","post":""},"comments_count":0,"likes_count":0,"reading":{"id":101029}}},{"highlight":{"id":238643,"position":null,"content":"There
+        falls a shadow, as T. S. Eliot noted, between the conception and the creation.
+        In the annals of innovation, new ideas are only part of the equation. Execution
+        is just as important.","highlighted_at":"2011-11-16T00:00:00Z","permalink":"ch9lrq","permalink_url":"https://readmill.com/gdennis/reads/steve-jobs/highlights/ch9lrq","user":{"id":29826,"username":"gdennis","firstname":"Geoffrey","fullname":"Geoffrey
+        Dennis","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F1b12ffb8344295b4cc59321d98640fb0b240cd8e-original.png&width=50","followers_count":1,"followings_count":8,"permalink_url":"https://readmill.com/gdennis"},"locators":{"position":null,"pre":"","mid":"There
+        falls a shadow, as T. S. Eliot noted, between the conception and the creation.
+        In the annals of innovation, new ideas are only part of the equation. Execution
+        is just as important.","post":""},"comments_count":0,"likes_count":0,"reading":{"id":101029}}},{"highlight":{"id":238644,"position":null,"content":"\u201cThe
+        Apple Marketing Philosophy\u201d that stressed three points. The first was
+        empathy, an intimate connection with the feelings of the customer: \u201cWe
+        will truly understand their needs better than any other company.\u201d The
+        second was focus: \u201cIn order to do a good job of those things that we
+        decide to do, we must eliminate all of the unimportant opportunities.\u201d
+        The third and equally important principle, awkwardly named, was impute. It
+        emphasized that people form an opinion about a company or product based on
+        the signals that it conveys.","highlighted_at":"2011-11-16T00:00:00Z","permalink":"r4ljng","permalink_url":"https://readmill.com/gdennis/reads/steve-jobs/highlights/r4ljng","user":{"id":29826,"username":"gdennis","firstname":"Geoffrey","fullname":"Geoffrey
+        Dennis","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F1b12ffb8344295b4cc59321d98640fb0b240cd8e-original.png&width=50","followers_count":1,"followings_count":8,"permalink_url":"https://readmill.com/gdennis"},"locators":{"position":null,"pre":"","mid":"\u201cThe
+        Apple Marketing Philosophy\u201d that stressed three points. The first was
+        empathy, an intimate connection with the feelings of the customer: \u201cWe
+        will truly understand their needs better than any other company.\u201d The
+        second was focus: \u201cIn order to do a good job of those things that we
+        decide to do, we must eliminate all of the unimportant opportunities.\u201d
+        The third and equally important principle, awkwardly named, was impute. It
+        emphasized that people form an opinion about a company or product based on
+        the signals that it conveys.","post":""},"comments_count":0,"likes_count":0,"reading":{"id":101029}}},{"highlight":{"id":238645,"position":null,"content":"Another
+        key aspect of Jobs\u2019s worldview was his binary way of categorizing things.
+        People were either \u201cenlightened\u201d or \u201can asshole.\u201d Their
+        work was either \u201cthe best\u201d or \u201ctotally shitty.\u201d Bill Atkinson,
+        the Mac designer who fell on the good side of these dichotomies, described
+        what it was like: It was","highlighted_at":"2011-11-16T00:00:00Z","permalink":"wrd8uw","permalink_url":"https://readmill.com/gdennis/reads/steve-jobs/highlights/wrd8uw","user":{"id":29826,"username":"gdennis","firstname":"Geoffrey","fullname":"Geoffrey
+        Dennis","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F1b12ffb8344295b4cc59321d98640fb0b240cd8e-original.png&width=50","followers_count":1,"followings_count":8,"permalink_url":"https://readmill.com/gdennis"},"locators":{"position":null,"pre":"","mid":"Another
+        key aspect of Jobs\u2019s worldview was his binary way of categorizing things.
+        People were either \u201cenlightened\u201d or \u201can asshole.\u201d Their
+        work was either \u201cthe best\u201d or \u201ctotally shitty.\u201d Bill Atkinson,
+        the Mac designer who fell on the good side of these dichotomies, described
+        what it was like: It was","post":""},"comments_count":0,"likes_count":0,"reading":{"id":101029}}},{"highlight":{"id":238646,"position":null,"content":"To
+        some people, calling it a reality distortion field was just a clever way to
+        say that Jobs tended to lie. But it was in fact a more complex form of dissembling.
+        He would assert something\u2014be it a fact about world history or a recounting
+        of who suggested an idea at a meeting\u2014without even considering the truth.
+        It came from willfully defying reality, not only to others but to himself.
+        \u201cHe can deceive himself,\u201d said Bill Atkinson. \u201cIt allowed him
+        to con people into believing his vision, because he has personally embraced
+        and internalized it.\u201d","highlighted_at":"2011-11-16T00:00:00Z","permalink":"cncksg","permalink_url":"https://readmill.com/gdennis/reads/steve-jobs/highlights/cncksg","user":{"id":29826,"username":"gdennis","firstname":"Geoffrey","fullname":"Geoffrey
+        Dennis","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F1b12ffb8344295b4cc59321d98640fb0b240cd8e-original.png&width=50","followers_count":1,"followings_count":8,"permalink_url":"https://readmill.com/gdennis"},"locators":{"position":null,"pre":"","mid":"To
+        some people, calling it a reality distortion field was just a clever way to
+        say that Jobs tended to lie. But it was in fact a more complex form of dissembling.
+        He would assert something\u2014be it a fact about world history or a recounting
+        of who suggested an idea at a meeting\u2014without even considering the truth.
+        It came from willfully defying reality, not only to others but to himself.
+        \u201cHe can deceive himself,\u201d said Bill Atkinson. \u201cIt allowed him
+        to con people into believing his vision, because he has personally embraced
+        and internalized it.\u201d","post":""},"comments_count":0,"likes_count":0,"reading":{"id":101029}}},{"highlight":{"id":238647,"position":null,"content":"Atop
+        the brochure McKenna put a maxim, often attributed to Leonardo da Vinci, that
+        would become the defining precept of Jobs\u2019s design philosophy: \u201cSimplicity
+        is the ultimate sophistication.\u201d","highlighted_at":"2011-11-16T00:00:00Z","permalink":"spuhiq","permalink_url":"https://readmill.com/gdennis/reads/steve-jobs/highlights/spuhiq","user":{"id":29826,"username":"gdennis","firstname":"Geoffrey","fullname":"Geoffrey
+        Dennis","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F1b12ffb8344295b4cc59321d98640fb0b240cd8e-original.png&width=50","followers_count":1,"followings_count":8,"permalink_url":"https://readmill.com/gdennis"},"locators":{"position":null,"pre":"","mid":"Atop
+        the brochure McKenna put a maxim, often attributed to Leonardo da Vinci, that
+        would become the defining precept of Jobs\u2019s design philosophy: \u201cSimplicity
+        is the ultimate sophistication.\u201d","post":""},"comments_count":0,"likes_count":0,"reading":{"id":101029}}},{"highlight":{"id":238648,"position":null,"content":"\u201cDeciding
+        what not to do is as important as deciding what to do,\u201d he said. \u201cThat\u2019s
+        true for companies, and it\u2019s true for products.\u201d","highlighted_at":"2011-11-16T00:00:00Z","permalink":"-icjuq","permalink_url":"https://readmill.com/gdennis/reads/steve-jobs/highlights/-icjuq","user":{"id":29826,"username":"gdennis","firstname":"Geoffrey","fullname":"Geoffrey
+        Dennis","avatar_url":"https://d26cmntuippvfl.cloudfront.net/?action=crop&format=png&height=50&origin=https%253A%252F%252Freadmill-assets.s3.amazonaws.com%252Favatars%252F1b12ffb8344295b4cc59321d98640fb0b240cd8e-original.png&width=50","followers_count":1,"followings_count":8,"permalink_url":"https://readmill.com/gdennis"},"locators":{"position":null,"pre":"","mid":"\u201cDeciding
+        what not to do is as important as deciding what to do,\u201d he said. \u201cThat\u2019s
+        true for companies, and it\u2019s true for products.\u201d","post":""},"comments_count":0,"likes_count":0,"reading":{"id":101029}}}],"status":200}'
+    http_version: 
+  recorded_at: Sat, 21 Dec 2013 07:15:48 GMT
+recorded_with: VCR 2.8.0

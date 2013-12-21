@@ -7,6 +7,7 @@ require 'readmill/client/highlights'
 require 'readmill/client/locations'
 require 'readmill/client/periods'
 require 'readmill/client/readings'
+require 'readmill/client/search'
 require 'readmill/client/users'
 
 module Readmill
@@ -48,6 +49,7 @@ module Readmill
     include Readmill::Client::Locations
     include Readmill::Client::Periods
     include Readmill::Client::Readings
+    include Readmill::Client::Search
     include Readmill::Client::Users
 
   end
