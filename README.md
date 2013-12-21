@@ -33,7 +33,6 @@ You can view their API docs [here.](http://developers.readmill.com/api/docs/v2/)
 
 ### TODO
 
-- Wrap the Search endpoints
 - Wrap authenticated (OAuth) endpoints
 
 ### Copyright
