@@ -1,3 +1,5 @@
+## As of March 28, 2014, Readmill is no longer in existence. You can read more about this in their [epilogue](http://readmill.com/).
+
 ## Ruby Wrapper for the Readmill API
 
 ### Quick Start
